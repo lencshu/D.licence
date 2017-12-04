@@ -1,4 +1,9 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><style> /*左边目录框的样式*/
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <style>
+   /*左边目录框的样式*/
 .tod {
     height: 100%; /*目录框的高度*/
     float:left;/*目录框的位置*/
@@ -31,7 +36,7 @@ A:hover { text-decoration:underline;}
   word-wrap: break-word;
   margin: 16px auto;
   max-width: 980px;
-  outline: 1300px solid #fff;
+  outline: 1300px solid #fff;float:right;padding-left:10px;width:60%;
 
 }
 
@@ -1129,7 +1134,9 @@ For Level Colors
     page-break-after: avoid;
   }
 }
-</style><style>/*github*/
+  </style>
+  <style>
+   /*github*/
 .codehilite {background-color:#fff;color:#333333;}
 .codehilite .hll {background-color:#ffffcc;}
 .codehilite .c{color:#999988;font-style:italic}
@@ -1192,9 +1199,11 @@ For Level Colors
 .codehilite .vi{color:teal}
 .codehilite .il{color:#009999}
 .codehilite .gc{color:#999;background-color:#EAF2F5}
-</style><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script>
-MathJax.Hub.Config({
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript">
+  </script>
+  <script>
+   MathJax.Hub.Config({
   config: ["MMLorHTML.js"],
   extensions: ["tex2jax.js"],
   jax: ["input/TeX"],
@@ -1217,18 +1226,22 @@ MathJax.Hub.Config({
   },
   showProcessingMessages: false
 });
-</script>
-<script type="text/javascript" charset="utf-8" src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.2/raphael-min.js"></script>
-<script type="text/javascript" charset="utf-8" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
-<script type="text/javascript" charset="utf-8" src="https://cdnjs.cloudflare.com/ajax/libs/js-sequence-diagrams/1.0.4/sequence-diagram-min.js"></script>
-<script type="text/javascript">// flowchart, v1.3.4
+  </script>
+  <script charset="utf-8" src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.2/raphael-min.js" type="text/javascript">
+  </script>
+  <script charset="utf-8" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js" type="text/javascript">
+  </script>
+  <script charset="utf-8" src="https://cdnjs.cloudflare.com/ajax/libs/js-sequence-diagrams/1.0.4/sequence-diagram-min.js" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   // flowchart, v1.3.4
 // Copyright (c)2014 Adriano Raiano (adrai).
 // Distributed under MIT license
 // http://adrai.github.io/flowchart.js
 !function(){function a(b,c){if(!b||"function"==typeof b)return c;var d={};for(var e in c)d[e]=c[e];for(e in b)b[e]&&(d[e]="object"==typeof d[e]?a(d[e],b[e]):b[e]);return d}function b(a,b){if("function"==typeof Object.create)a.super_=b,a.prototype=Object.create(b.prototype,{constructor:{value:a,enumerable:!1,writable:!0,configurable:!0}});else{a.super_=b;var c=function(){};c.prototype=b.prototype,a.prototype=new c,a.prototype.constructor=a}}function c(a,b,c){var d,e,f="M{0},{1}";for(d=2,e=2*c.length+2;e>d;d+=2)f+=" L{"+d+"},{"+(d+1)+"}";var g=[b.x,b.y];for(d=0,e=c.length;e>d;d++)g.push(c[d].x),g.push(c[d].y);var h=a.paper.path(f,g);h.attr("stroke",a.options["element-color"]),h.attr("stroke-width",a.options["line-width"]);var i=a.options.font,j=a.options["font-family"],k=a.options["font-weight"];return i&&h.attr({font:i}),j&&h.attr({"font-family":j}),k&&h.attr({"font-weight":k}),h}function d(a,b,c,d){var e,f;"[object Array]"!==Object.prototype.toString.call(c)&&(c=[c]);var g="M{0},{1}";for(e=2,f=2*c.length+2;f>e;e+=2)g+=" L{"+e+"},{"+(e+1)+"}";var h=[b.x,b.y];for(e=0,f=c.length;f>e;e++)h.push(c[e].x),h.push(c[e].y);var i=a.paper.path(g,h);i.attr({stroke:a.options["line-color"],"stroke-width":a.options["line-width"],"arrow-end":a.options["arrow-end"]});var j=a.options.font,k=a.options["font-family"],l=a.options["font-weight"];if(j&&i.attr({font:j}),k&&i.attr({"font-family":k}),l&&i.attr({"font-weight":l}),d){var m=!1,n=a.paper.text(0,0,d),o=!1,p=c[0];b.y===p.y&&(o=!0);var q=0,r=0;m?(q=b.x>p.x?b.x-(b.x-p.x)/2:p.x-(p.x-b.x)/2,r=b.y>p.y?b.y-(b.y-p.y)/2:p.y-(p.y-b.y)/2,o?(q-=n.getBBox().width/2,r-=a.options["text-margin"]):(q+=a.options["text-margin"],r-=n.getBBox().height/2)):(q=b.x,r=b.y,o?(q+=a.options["text-margin"]/2,r-=a.options["text-margin"]):(q+=a.options["text-margin"]/2,r+=a.options["text-margin"])),n.attr({"text-anchor":"start","font-size":a.options["font-size"],fill:a.options["font-color"],x:q,y:r}),j&&n.attr({font:j}),k&&n.attr({"font-family":k}),l&&n.attr({"font-weight":l})}return i}function e(a,b,c,d,e,f,g,h){var i,j,k,l,m,n={x:null,y:null,onLine1:!1,onLine2:!1};return i=(h-f)*(c-a)-(g-e)*(d-b),0===i?n:(j=b-f,k=a-e,l=(g-e)*j-(h-f)*k,m=(c-a)*j-(d-b)*k,j=l/i,k=m/i,n.x=a+j*(c-a),n.y=b+j*(d-b),j>0&&1>j&&(n.onLine1=!0),k>0&&1>k&&(n.onLine2=!0),n)}function f(a,b){b=b||{},this.paper=new Raphael(a),this.options=r.defaults(b,q),this.symbols=[],this.lines=[],this.start=null}function g(a,b,c){this.chart=a,this.group=this.chart.paper.set(),this.symbol=c,this.connectedTo=[],this.symbolType=b.symbolType,this.flowstate=b.flowstate||"future",this.next_direction=b.next&&b.direction_next?b.direction_next:void 0,this.text=this.chart.paper.text(0,0,b.text),b.key&&(this.text.node.id=b.key+"t"),this.text.node.setAttribute("class",this.getAttr("class")+"t"),this.text.attr({"text-anchor":"start",x:this.getAttr("text-margin"),fill:this.getAttr("font-color"),"font-size":this.getAttr("font-size")});var d=this.getAttr("font"),e=this.getAttr("font-family"),f=this.getAttr("font-weight");d&&this.text.attr({font:d}),e&&this.text.attr({"font-family":e}),f&&this.text.attr({"font-weight":f}),b.link&&this.text.attr("href",b.link),b.target&&this.text.attr("target",b.target);var g=this.getAttr("maxWidth");if(g){for(var h=b.text.split(" "),i="",j=0,k=h.length;k>j;j++){var l=h[j];this.text.attr("text",i+" "+l),i+=this.text.getBBox().width>g?"\n"+l:" "+l}this.text.attr("text",i.substring(1))}if(this.group.push(this.text),c){var m=this.getAttr("text-margin");c.attr({fill:this.getAttr("fill"),stroke:this.getAttr("element-color"),"stroke-width":this.getAttr("line-width"),width:this.text.getBBox().width+2*m,height:this.text.getBBox().height+2*m}),c.node.setAttribute("class",this.getAttr("class")),b.link&&c.attr("href",b.link),b.target&&c.attr("target",b.target),b.key&&(c.node.id=b.key),this.group.push(c),c.insertBefore(this.text),this.text.attr({y:c.getBBox().height/2}),this.initialize()}}function h(a,b){var c=a.paper.rect(0,0,0,0,20);b=b||{},b.text=b.text||"Start",g.call(this,a,b,c)}function i(a,b){var c=a.paper.rect(0,0,0,0,20);b=b||{},b.text=b.text||"End",g.call(this,a,b,c)}function j(a,b){var c=a.paper.rect(0,0,0,0);b=b||{},g.call(this,a,b,c)}function k(a,b){var c=a.paper.rect(0,0,0,0);b=b||{},g.call(this,a,b,c),c.attr({width:this.text.getBBox().width+4*this.getAttr("text-margin")}),this.text.attr({x:2*this.getAttr("text-margin")});var d=a.paper.rect(0,0,0,0);d.attr({x:this.getAttr("text-margin"),stroke:this.getAttr("element-color"),"stroke-width":this.getAttr("line-width"),width:this.text.getBBox().width+2*this.getAttr("text-margin"),height:this.text.getBBox().height+2*this.getAttr("text-margin"),fill:this.getAttr("fill")}),b.key&&(d.node.id=b.key+"i");var e=this.getAttr("font"),f=this.getAttr("font-family"),h=this.getAttr("font-weight");e&&d.attr({font:e}),f&&d.attr({"font-family":f}),h&&d.attr({"font-weight":h}),b.link&&d.attr("href",b.link),b.target&&d.attr("target",b.target),this.group.push(d),d.insertBefore(this.text),this.initialize()}function l(a,b){b=b||{},g.call(this,a,b),this.textMargin=this.getAttr("text-margin"),this.text.attr({x:3*this.textMargin});var d=this.text.getBBox().width+4*this.textMargin,e=this.text.getBBox().height+2*this.textMargin,f=this.textMargin,h=e/2,i={x:f,y:h},j=[{x:f-this.textMargin,y:e},{x:f-this.textMargin+d,y:e},{x:f-this.textMargin+d+2*this.textMargin,y:0},{x:f-this.textMargin+2*this.textMargin,y:0},{x:f,y:h}],k=c(a,i,j);k.attr({stroke:this.getAttr("element-color"),"stroke-width":this.getAttr("line-width"),fill:this.getAttr("fill")}),b.link&&k.attr("href",b.link),b.target&&k.attr("target",b.target),b.key&&(k.node.id=b.key),k.node.setAttribute("class",this.getAttr("class")),this.text.attr({y:k.getBBox().height/2}),this.group.push(k),k.insertBefore(this.text),this.initialize()}function m(a,b){b=b||{},g.call(this,a,b),this.textMargin=this.getAttr("text-margin"),this.yes_direction="bottom",this.no_direction="right",b.yes&&b.direction_yes&&b.no&&!b.direction_no?"right"===b.direction_yes?(this.no_direction="bottom",this.yes_direction="right"):(this.no_direction="right",this.yes_direction="bottom"):b.yes&&!b.direction_yes&&b.no&&b.direction_no?"right"===b.direction_no?(this.yes_direction="bottom",this.no_direction="right"):(this.yes_direction="right",this.no_direction="bottom"):(this.yes_direction="bottom",this.no_direction="right"),this.yes_direction=this.yes_direction||"bottom",this.no_direction=this.no_direction||"right",this.text.attr({x:2*this.textMargin});var d=this.text.getBBox().width+3*this.textMargin;d+=d/2;var e=this.text.getBBox().height+2*this.textMargin;e+=e/2,e=Math.max(.5*d,e);var f=d/4,h=e/4;this.text.attr({x:f+this.textMargin/2});var i={x:f,y:h},j=[{x:f-d/4,y:h+e/4},{x:f-d/4+d/2,y:h+e/4+e/2},{x:f-d/4+d,y:h+e/4},{x:f-d/4+d/2,y:h+e/4-e/2},{x:f-d/4,y:h+e/4}],k=c(a,i,j);k.attr({stroke:this.getAttr("element-color"),"stroke-width":this.getAttr("line-width"),fill:this.getAttr("fill")}),b.link&&k.attr("href",b.link),b.target&&k.attr("target",b.target),b.key&&(k.node.id=b.key),k.node.setAttribute("class",this.getAttr("class")),this.text.attr({y:k.getBBox().height/2}),this.group.push(k),k.insertBefore(this.text),this.initialize()}function n(a){function b(a){var b=a.indexOf("(")+1,c=a.indexOf(")");return b>=0&&c>=0?d.symbols[a.substring(0,b-1)]:d.symbols[a]}function c(a){var b="next",c=a.indexOf("(")+1,d=a.indexOf(")");return c>=0&&d>=0&&(b=D.substring(c,d),b.indexOf(",")<0&&"yes"!==b&&"no"!==b&&(b="next, "+b)),b}a=a||"",a=a.trim();for(var d={symbols:{},start:null,drawSVG:function(a,b){function c(a){if(g[a.key])return g[a.key];switch(a.symbolType){case"start":g[a.key]=new h(e,a);break;case"end":g[a.key]=new i(e,a);break;case"operation":g[a.key]=new j(e,a);break;case"inputoutput":g[a.key]=new l(e,a);break;case"subroutine":g[a.key]=new k(e,a);break;case"condition":g[a.key]=new m(e,a);break;default:return new Error("Wrong symbol type!")}return g[a.key]}var d=this;this.diagram&&this.diagram.clean();var e=new f(a,b);this.diagram=e;var g={};!function n(a,b,f){var g=c(a);return d.start===a?e.startWith(g):b&&f&&!b.pathOk&&(b instanceof m?(f.yes===a&&b.yes(g),f.no===a&&b.no(g)):b.then(g)),g.pathOk?g:(g instanceof m?(a.yes&&n(a.yes,g,a),a.no&&n(a.no,g,a)):a.next&&n(a.next,g,a),g)}(this.start),e.render()},clean:function(){this.diagram.clean()}},e=[],g=0,n=1,o=a.length;o>n;n++)if("\n"===a[n]&&"\\"!==a[n-1]){var p=a.substring(g,n);g=n+1,e.push(p.replace(/\\\n/g,"\n"))}g<a.length&&e.push(a.substr(g));for(var q=1,r=e.length;r>q;){var s=e[q];s.indexOf(": ")<0&&s.indexOf("(")<0&&s.indexOf(")")<0&&s.indexOf("->")<0&&s.indexOf("=>")<0?(e[q-1]+="\n"+s,e.splice(q,1),r--):q++}for(;e.length>0;){var t=e.splice(0,1)[0];if(t.indexOf("=>")>=0){var u,v=t.split("=>"),w={key:v[0],symbolType:v[1],text:null,link:null,target:null,flowstate:null};if(w.symbolType.indexOf(": ")>=0&&(u=w.symbolType.split(": "),w.symbolType=u[0],w.text=u[1]),w.text&&w.text.indexOf(":>")>=0?(u=w.text.split(":>"),w.text=u[0],w.link=u[1]):w.symbolType.indexOf(":>")>=0&&(u=w.symbolType.split(":>"),w.symbolType=u[0],w.link=u[1]),w.symbolType.indexOf("\n")>=0&&(w.symbolType=w.symbolType.split("\n")[0]),w.link){var x=w.link.indexOf("[")+1,y=w.link.indexOf("]");x>=0&&y>=0&&(w.target=w.link.substring(x,y),w.link=w.link.substring(0,x-1))}if(w.text&&w.text.indexOf("|")>=0){var z=w.text.split("|");w.text=z[0],w.flowstate=z[1].trim()}d.symbols[w.key]=w}else if(t.indexOf("->")>=0)for(var A=t.split("->"),B=0,C=A.length;C>B;B++){var D=A[B],E=b(D),F=c(D),G=null;if(F.indexOf(",")>=0){var H=F.split(",");F=H[0],G=H[1].trim()}if(d.start||(d.start=E),C>B+1){var I=A[B+1];E[F]=b(I),E["direction_"+F]=G,G=null}}}return d}Array.prototype.indexOf||(Array.prototype.indexOf=function(a){"use strict";if(null===this)throw new TypeError;var b=Object(this),c=b.length>>>0;if(0===c)return-1;var d=0;if(arguments.length>0&&(d=Number(arguments[1]),d!=d?d=0:0!==d&&1/0!=d&&d!=-1/0&&(d=(d>0||-1)*Math.floor(Math.abs(d)))),d>=c)return-1;for(var e=d>=0?d:Math.max(c-Math.abs(d),0);c>e;e++)if(e in b&&b[e]===a)return e;return-1}),Array.prototype.lastIndexOf||(Array.prototype.lastIndexOf=function(a){"use strict";if(null===this)throw new TypeError;var b=Object(this),c=b.length>>>0;if(0===c)return-1;var d=c;arguments.length>1&&(d=Number(arguments[1]),d!=d?d=0:0!==d&&d!=1/0&&d!=-(1/0)&&(d=(d>0||-1)*Math.floor(Math.abs(d))));for(var e=d>=0?Math.min(d,c-1):c-Math.abs(d);e>=0;e--)if(e in b&&b[e]===a)return e;return-1}),String.prototype.trim||(String.prototype.trim=function(){return this.replace(/^\s+|\s+$/g,"")});var o=this,p={};"undefined"!=typeof module&&module.exports?module.exports=p:o.flowchart=o.flowchart||p;var q={x:0,y:0,"line-width":3,"line-length":50,"text-margin":10,"font-size":14,"font-color":"black","line-color":"black","element-color":"black",fill:"white","yes-text":"yes","no-text":"no","arrow-end":"block","class":"flowchart",symbols:{start:{},end:{},condition:{},inputoutput:{},operation:{},subroutine:{}}},r={defaults:a,inherits:b};f.prototype.handle=function(a){this.symbols.indexOf(a)<=-1&&this.symbols.push(a);var b=this;return a instanceof m?(a.yes=function(c){return a.yes_symbol=c,a.no_symbol&&(a.pathOk=!0),b.handle(c)},a.no=function(c){return a.no_symbol=c,a.yes_symbol&&(a.pathOk=!0),b.handle(c)}):a.then=function(c){return a.next=c,a.pathOk=!0,b.handle(c)},a},f.prototype.startWith=function(a){return this.start=a,this.handle(a)},f.prototype.render=function(){var a,b=0,c=0,d=0,e=0,f=0,g=0;for(d=0,e=this.symbols.length;e>d;d++)a=this.symbols[d],a.width>b&&(b=a.width),a.height>c&&(c=a.height);for(d=0,e=this.symbols.length;e>d;d++)a=this.symbols[d],a.shiftX(this.options.x+(b-a.width)/2+this.options["line-width"]),a.shiftY(this.options.y+(c-a.height)/2+this.options["line-width"]);for(this.start.render(),d=0,e=this.symbols.length;e>d;d++)a=this.symbols[d],a.renderLines();for(f=this.maxXFromLine,d=0,e=this.symbols.length;e>d;d++){a=this.symbols[d];var h=a.getX()+a.width,i=a.getY()+a.height;h>f&&(f=h),i>g&&(g=i)}this.paper.setSize(f+this.options["line-width"],g+this.options["line-width"])},f.prototype.clean=function(){if(this.paper){var a=this.paper.canvas;a.parentNode.removeChild(a)}},g.prototype.getAttr=function(a){if(!this.chart)return void 0;var b,c=this.chart.options?this.chart.options[a]:void 0,d=this.chart.options.symbols?this.chart.options.symbols[this.symbolType][a]:void 0;return this.chart.options.flowstate&&this.chart.options.flowstate[this.flowstate]&&(b=this.chart.options.flowstate[this.flowstate][a]),b||d||c},g.prototype.initialize=function(){this.group.transform("t"+this.getAttr("line-width")+","+this.getAttr("line-width")),this.width=this.group.getBBox().width,this.height=this.group.getBBox().height},g.prototype.getCenter=function(){return{x:this.getX()+this.width/2,y:this.getY()+this.height/2}},g.prototype.getX=function(){return this.group.getBBox().x},g.prototype.getY=function(){return this.group.getBBox().y},g.prototype.shiftX=function(a){this.group.transform("t"+(this.getX()+a)+","+this.getY())},g.prototype.setX=function(a){this.group.transform("t"+a+","+this.getY())},g.prototype.shiftY=function(a){this.group.transform("t"+this.getX()+","+(this.getY()+a))},g.prototype.setY=function(a){this.group.transform("t"+this.getX()+","+a)},g.prototype.getTop=function(){var a=this.getY(),b=this.getX()+this.width/2;return{x:b,y:a}},g.prototype.getBottom=function(){var a=this.getY()+this.height,b=this.getX()+this.width/2;return{x:b,y:a}},g.prototype.getLeft=function(){var a=this.getY()+this.group.getBBox().height/2,b=this.getX();return{x:b,y:a}},g.prototype.getRight=function(){var a=this.getY()+this.group.getBBox().height/2,b=this.getX()+this.group.getBBox().width;return{x:b,y:a}},g.prototype.render=function(){if(this.next){var a=this.getAttr("line-length");if("right"===this.next_direction){var b=this.getRight();if(this.next.getLeft(),!this.next.isPositioned){this.next.setY(b.y-this.next.height/2),this.next.shiftX(this.group.getBBox().x+this.width+a);var c=this;!function e(){for(var b,d=!1,f=0,g=c.chart.symbols.length;g>f;f++){b=c.chart.symbols[f];var h=Math.abs(b.getCenter().x-c.next.getCenter().x);if(b.getCenter().y>c.next.getCenter().y&&h<=c.next.width/2){d=!0;break}}d&&(c.next.setX(b.getX()+b.width+a),e())}(),this.next.isPositioned=!0,this.next.render()}}else{var d=this.getBottom();this.next.getTop(),this.next.isPositioned||(this.next.shiftY(this.getY()+this.height+a),this.next.setX(d.x-this.next.width/2),this.next.isPositioned=!0,this.next.render())}}},g.prototype.renderLines=function(){this.next&&(this.next_direction?this.drawLineTo(this.next,"",this.next_direction):this.drawLineTo(this.next))},g.prototype.drawLineTo=function(a,b,c){this.connectedTo.indexOf(a)<0&&this.connectedTo.push(a);var f,g=this.getCenter().x,h=this.getCenter().y,i=(this.getTop(),this.getRight()),j=this.getBottom(),k=this.getLeft(),l=a.getCenter().x,m=a.getCenter().y,n=a.getTop(),o=a.getRight(),p=(a.getBottom(),a.getLeft()),q=g===l,r=h===m,s=m>h,t=h>m,u=g>l,v=l>g,w=0,x=this.getAttr("line-length"),y=this.getAttr("line-width");if(c&&"bottom"!==c||!q||!s)if(c&&"right"!==c||!r||!v)if(c&&"left"!==c||!r||!u)if(c&&"right"!==c||!q||!t)if(c&&"right"!==c||!q||!s)if(c&&"bottom"!==c||!u)if(c&&"bottom"!==c||!v)if(c&&"right"===c&&u)f=d(this.chart,i,[{x:i.x+x/2,y:i.y},{x:i.x+x/2,y:n.y-x/2},{x:n.x,y:n.y-x/2},{x:n.x,y:n.y}],b),this.rightStart=!0,a.topEnd=!0,w=i.x+x/2;else if(c&&"right"===c&&v)f=d(this.chart,i,[{x:n.x,y:i.y},{x:n.x,y:n.y}],b),this.rightStart=!0,a.topEnd=!0,w=i.x+x/2;else if(c&&"bottom"===c&&q&&t)f=d(this.chart,j,[{x:j.x,y:j.y+x/2},{x:i.x+x/2,y:j.y+x/2},{x:i.x+x/2,y:n.y-x/2},{x:n.x,y:n.y-x/2},{x:n.x,y:n.y}],b),this.bottomStart=!0,a.topEnd=!0,w=j.x+x/2;else if("left"===c&&q&&t){var z=k.x-x/2;p.x<k.x&&(z=p.x-x/2),f=d(this.chart,k,[{x:z,y:k.y},{x:z,y:n.y-x/2},{x:n.x,y:n.y-x/2},{x:n.x,y:n.y}],b),this.leftStart=!0,a.topEnd=!0,w=k.x}else"left"===c&&(f=d(this.chart,k,[{x:n.x+(k.x-n.x)/2,y:k.y},{x:n.x+(k.x-n.x)/2,y:n.y-x/2},{x:n.x,y:n.y-x/2},{x:n.x,y:n.y}],b),this.leftStart=!0,a.topEnd=!0,w=k.x);else f=d(this.chart,j,[{x:j.x,y:j.y+x/2},{x:j.x+(j.x-n.x)/2,y:j.y+x/2},{x:j.x+(j.x-n.x)/2,y:n.y-x/2},{x:n.x,y:n.y-x/2},{x:n.x,y:n.y}],b),this.bottomStart=!0,a.topEnd=!0,w=j.x+(j.x-n.x)/2;else f=this.leftEnd&&t?d(this.chart,j,[{x:j.x,y:j.y+x/2},{x:j.x+(j.x-n.x)/2,y:j.y+x/2},{x:j.x+(j.x-n.x)/2,y:n.y-x/2},{x:n.x,y:n.y-x/2},{x:n.x,y:n.y}],b):d(this.chart,j,[{x:j.x,y:n.y-x/2},{x:n.x,y:n.y-x/2},{x:n.x,y:n.y}],b),this.bottomStart=!0,a.topEnd=!0,w=j.x+(j.x-n.x)/2;else f=d(this.chart,i,[{x:i.x+x/2,y:i.y},{x:i.x+x/2,y:n.y-x/2},{x:n.x,y:n.y-x/2},{x:n.x,y:n.y}],b),this.rightStart=!0,a.topEnd=!0,w=i.x+x/2;else f=d(this.chart,i,[{x:i.x+x/2,y:i.y},{x:i.x+x/2,y:n.y-x/2},{x:n.x,y:n.y-x/2},{x:n.x,y:n.y}],b),this.rightStart=!0,a.topEnd=!0,w=i.x+x/2;else f=d(this.chart,k,o,b),this.leftStart=!0,a.rightEnd=!0,w=o.x;else f=d(this.chart,i,p,b),this.rightStart=!0,a.leftEnd=!0,w=p.x;else f=d(this.chart,j,n,b),this.bottomStart=!0,a.topEnd=!0,w=j.x;if(f){for(var A=0,B=this.chart.lines.length;B>A;A++)for(var C,D=this.chart.lines[A],E=D.attr("path"),F=f.attr("path"),G=0,H=E.length-1;H>G;G++){var I=[];I.push(["M",E[G][1],E[G][2]]),I.push(["L",E[G+1][1],E[G+1][2]]);for(var J=I[0][1],K=I[0][2],L=I[1][1],M=I[1][2],N=0,O=F.length-1;O>N;N++){var P=[];P.push(["M",F[N][1],F[N][2]]),P.push(["L",F[N+1][1],F[N+1][2]]);var Q=P[0][1],R=P[0][2],S=P[1][1],T=P[1][2],U=e(J,K,L,M,Q,R,S,T);if(U.onLine1&&U.onLine2){var V;R===T?Q>S?(V=["L",U.x+2*y,R],F.splice(N+1,0,V),V=["C",U.x+2*y,R,U.x,R-4*y,U.x-2*y,R],F.splice(N+2,0,V),f.attr("path",F)):(V=["L",U.x-2*y,R],F.splice(N+1,0,V),V=["C",U.x-2*y,R,U.x,R-4*y,U.x+2*y,R],F.splice(N+2,0,V),f.attr("path",F)):R>T?(V=["L",Q,U.y+2*y],F.splice(N+1,0,V),V=["C",Q,U.y+2*y,Q+4*y,U.y,Q,U.y-2*y],F.splice(N+2,0,V),f.attr("path",F)):(V=["L",Q,U.y-2*y],F.splice(N+1,0,V),V=["C",Q,U.y-2*y,Q+4*y,U.y,Q,U.y+2*y],F.splice(N+2,0,V),f.attr("path",F)),N+=2,C+=2}}}this.chart.lines.push(f)}(!this.chart.maxXFromLine||this.chart.maxXFromLine&&w>this.chart.maxXFromLine)&&(this.chart.maxXFromLine=w)},r.inherits(h,g),r.inherits(i,g),r.inherits(j,g),r.inherits(k,g),r.inherits(l,g),l.prototype.getLeft=function(){var a=this.getY()+this.group.getBBox().height/2,b=this.getX()+this.textMargin;return{x:b,y:a}},l.prototype.getRight=function(){var a=this.getY()+this.group.getBBox().height/2,b=this.getX()+this.group.getBBox().width-this.textMargin;return{x:b,y:a}},r.inherits(m,g),m.prototype.render=function(){this.yes_direction&&(this[this.yes_direction+"_symbol"]=this.yes_symbol),this.no_direction&&(this[this.no_direction+"_symbol"]=this.no_symbol);var a=this.getAttr("line-length");if(this.bottom_symbol){var b=this.getBottom();this.bottom_symbol.getTop(),this.bottom_symbol.isPositioned||(this.bottom_symbol.shiftY(this.getY()+this.height+a),this.bottom_symbol.setX(b.x-this.bottom_symbol.width/2),this.bottom_symbol.isPositioned=!0,this.bottom_symbol.render())}if(this.right_symbol){var c=this.getRight();if(this.right_symbol.getLeft(),!this.right_symbol.isPositioned){this.right_symbol.setY(c.y-this.right_symbol.height/2),this.right_symbol.shiftX(this.group.getBBox().x+this.width+a);var d=this;!function e(){for(var b,c=!1,f=0,g=d.chart.symbols.length;g>f;f++){b=d.chart.symbols[f];var h=Math.abs(b.getCenter().x-d.right_symbol.getCenter().x);if(b.getCenter().y>d.right_symbol.getCenter().y&&h<=d.right_symbol.width/2){c=!0;break}}c&&(d.right_symbol.setX(b.getX()+b.width+a),e())}(),this.right_symbol.isPositioned=!0,this.right_symbol.render()}}},m.prototype.renderLines=function(){this.yes_symbol&&this.drawLineTo(this.yes_symbol,this.getAttr("yes-text"),this.yes_direction),this.no_symbol&&this.drawLineTo(this.no_symbol,this.getAttr("no-text"),this.no_direction)},p.parse=n}();
-</script>
-<script type="text/javascript">
-(function (win, doc) {
+  </script>
+  <script type="text/javascript">
+   (function (win, doc) {
   function onReady(fn) {
     if (doc.addEventListener) {
       doc.addEventListener('DOMContentLoaded', fn);
@@ -1280,377 +1293,2993 @@ MathJax.Hub.Config({
   onReady(function(){convertUML('uml-flowchart', flowchart);});
   onReady(function(){convertUML('uml-sequence-diagram', Diagram, {theme: 'simple'});});
 })(window, document)
-</script>
-<title>驾照</title></head><body><div class="to"></div><article class="markdown-body"><div class="toc">
-<ul>
-<li><a href="#ex-01">Ex 01</a></li>
-<li><a href="#ex-09">Ex 09</a></li>
-<li><a href="#ex-08">Ex 08</a></li>
-</ul>
-</div>
-<p>驾照理论考试</p>
-<h1 id="ex-01"><a name="user-content-ex-01" href="#ex-01" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Ex 01</h1>
-<ul>
-<li>50k每分钟要处理1700个信息</li>
-<li>如果没投保，一旦制造了事故要负责双方的维修费用</li>
-<li>听收音机不算特别干扰开车</li>
-<li>自动巡航可以维持安全距离</li>
-<li>蓝牙打电话是允许的</li>
-<li>宠物必须关笼子里</li>
-<li>不系安全带罚钱不扣分</li>
-</ul>
-<h1 id="ex-09"><a name="user-content-ex-09" href="#ex-09" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Ex 09</h1>
-<ul>
-<li>02<br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_223601.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\f8a6998f-8dd9-400a-8ba9-e61ad1213e16.mp3"></video></p></li>
-<li><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_224331.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\3de9764e-bb8c-4f06-9815-c0ce3c4a5c3a.mp3"></video></p></li>
-<li><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_224554.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_224639.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\eeac0fab-c04b-442c-bd4d-4cbdf150e4e5.mp3"></video></p></li>
-<li><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_224919.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_224930.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_224946.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\3c6ff9f4-7f1c-45d0-9963-c7ea7441e443.mp3"></video></p></li>
-<li><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_225135.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\9edaeb5d-dc1a-4344-bbf1-df8ba168fb79.mp3"></video></p></li>
-<li>
-<p><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_225237.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_225258.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_225307.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_225426.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\064dd471-7bfd-40fd-9533-1d023373060b.mp3"></video></p></p>
-</li>
-<li>
-<p><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_225800.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\465799ab-a654-49c5-8665-ca2ba044cae6.mp3"></video></p></p>
-</li>
-<li><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_225834.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_225918.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\d24763c5-1197-4122-aed7-0a25af9bf2d2.mp3"></video></p></li>
-<li><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_230009.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_230016.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\ab9552d1-e469-481b-bd1a-ce0352ca63b7.mp3"></video></p></li>
-<li><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_230229.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\aa029193-cbab-40ca-9c1a-c791b7543819.mp3"></video></p></li>
-<li><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_230327.png" /></p></li>
-<li><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_230624.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\b5134d66-b1a3-402d-8568-2c84a1f6db2d.mp3"></video></p></li>
-<li><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_230711.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_230747.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_230757.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\51a511d7-3e1f-4f46-b6f0-a6bd9b412724.mp3"></video></p></li>
-<li><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_230925.png" /></p></li>
-<li><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_231014.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_231026.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_231042.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\9e04921b-941b-4bd7-b61c-233c5328c3a1.mp3"></video></p></li>
-<li><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_231215.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\9adf2bec-259d-4a9d-88b1-d03a2b2d6525.mp3"></video></p></li>
-<li><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_231452.png" /></p></li>
-<li><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_231546.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_231553.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_231611.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_231633.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\ecd8ceb0-88de-4d9a-aebc-48b8e35f1756.mp3"></video></p></li>
-<li><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_231838.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_231930.png" /></p></li>
-<li><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_232012.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_232018.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_232027.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\0d6eb92c-6a7f-4db0-905a-4986ff07b9c5.mp3"></video></p></li>
-<li><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_232200.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_232225.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\aab08ab5-5e7c-4476-b7c6-eaad6f4abff0.mp3"></video></p></li>
-<li><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_232329.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_232338.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\65ab67d4-b442-4c81-afac-f41e6d9c44da.mp3"></video></p></li>
-<li><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_232427.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_232443.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\a36fb249-d593-41c1-a546-cae28f979be4.mp3"></video></p></li>
-<li><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_232602.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_232608.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\f47370a0-fe3d-4062-8b67-f14745e892cc.mp3"></video></p></li>
-<li><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_232752.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\010689_BT_R.mp3"></video></p></li>
-<li><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_232855.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\a9546f06-796e-48dd-80a9-62eb6f3f694f.mp3"></video></p></li>
-<li><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_232955.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_233005.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_233017.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\8a52af6b-7f73-4461-bed9-4697a25897e9.mp3"></video></p></li>
-<li>34<br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_233112.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_233125.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_233218.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\1b779d71-9a03-4bd9-8f01-1a19e3f0a68e.mp3"></video></p></li>
-<li>
-<p><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_233350.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\657b0a2f-d5ee-4188-8dcc-76984f5b5695.mp3"></video></p></p>
-</li>
-<li>
-<p>36<br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_233507.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_233515.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_233552.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\4747a1a9-849e-4440-81e1-aea00fc67e01.mp3"></video></p></p>
-</li>
-<li><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_233826.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\073be246-c65f-42e0-89cc-74932839ab6f.mp3"></video></p></li>
-<li><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_233938.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\c14aa08b-e56e-433d-947d-f79607ff3880.mp3"></video></p></li>
-<li><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_234011.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_234038.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\b1557b75-395f-4823-92c2-2ddb6b5b81b7.mp3"></video></p></li>
-<li><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_234224.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\289aafca-3aa7-4031-b6cf-814a154351ab.mp3"></video></p></li>
-</ul>
-<h1 id="ex-08"><a name="user-content-ex-08" href="#ex-08" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Ex 08</h1>
-<ul>
-<li><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_234608.png" /></p></li>
-<li><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_234714.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_234723.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_234731.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\c9f24b17-aee3-4e2c-ae9b-fcfe18c4a7a9.mp3"></video></p></li>
-<li><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_234859.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\88b40949-0f92-41a8-a139-3c34bf9bf48a.mp3"></video></p></li>
-<li><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_234945.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_234954.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\60151b97-6d4c-477b-81b2-6db40ba195e5.mp3"></video></p></li>
-<li><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_235101.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\9a11516e-0d1b-4bf0-bafb-76b3fd13ad84.mp3"></video></p></li>
-<li><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_235143.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_235149.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\16a6e7bf-02d2-4c7b-9a4a-143eb5f1b1be.mp3"></video></p></li>
-<li><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_235246.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_235259.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\cc21be42-fa4a-4fd6-b966-b811ed706a02.mp3"></video></p></li>
-<li><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_235358.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_235412.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\df8c351b-8437-443a-8374-eb5332d2e483.mp3"></video></p></li>
-<li><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_235509.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_235516.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\3f5e39ef-4004-441a-a4ca-5ffa8c925a8f.mp3"></video></p></li>
-<li><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_235631.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_235648.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_235700.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_235711.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\0fd518b8-5a88-4e2b-819a-df9bd03f7bf6.mp3"></video></p></li>
-<li><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_235829.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\da97ce6f-dcfc-4575-961e-56d5e85f4dc0.mp3"></video></p></li>
-<li><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_235911.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_235929.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171203_235955.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_000005.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\6a3bdd9e-e479-4762-a577-9b645ae91dcd.mp3"></video></p></li>
-<li>
-<p><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_001747.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_001758.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\c2ea38ff-00b3-460f-89b0-9d79a114011f.mp3"></video></p></p>
-</li>
-<li>
-<p>市区灯光<br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_001942.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\60ad3245-b151-4f31-9722-20939c4a4177.mp3"></video></p></p>
-</li>
-<li>
-<p><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_002109.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\5422443c-ca52-4231-9798-9b49017e42ad.mp3"></video></p></p>
-</li>
-<li>
-<p><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_002210.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\d731f5f5-0992-45ad-a9c6-56639e87b5ee.mp3"></video></p></p>
-</li>
-<li>
-<p><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_002257.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_002318.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\524be06c-f78b-408d-a774-0e60cdd16935.mp3"></video></p></p>
-</li>
-<li>
-<p><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_002445.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\a8cafb7f-b2dd-4f64-a9b8-45dce17ae2f4.mp3"></video></p></p>
-</li>
-<li>
-<p><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_002541.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\6304fe09-8c50-4956-97d8-91299a6b7128.mp3"></video></p></p>
-</li>
-<li>
-<p><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_002651.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_002705.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_002714.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\ce52d1a4-df10-484b-975b-477df626a3b1.mp3"></video></p></p>
-</li>
-<li>
-<p><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_002808.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_002817.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_002831.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_002858.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\99536dec-3ae6-41a9-905e-7f21fb31c72a.mp3"></video></p></p>
-</li>
-<li>
-<p><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_003125.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_003136.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\6afc59c3-a4f8-4194-b79b-bc984c5eb8c7.mp3"></video></p></p>
-</li>
-<li>
-<p><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_003244.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\3fcc62ab-f1d8-472d-a642-ea92ac60dfcb.mp3"></video></p></p>
-</li>
-<li>
-<p><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_003356.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_003434.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\6341fc40-03ad-4739-b069-79cc9240ef23.mp3"></video></p></p>
-</li>
-<li>
-<p><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_003819.png" /></p></p>
-</li>
-<li>
-<p><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_003906.png" /></p></p>
-</li>
-<li>
-<p><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_003938.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_004035.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\6fc39a75-d6f3-4c27-9b38-11cbf94a9f85.mp3"></video></p></p>
-</li>
-<li>
-<p><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_004133.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_004140.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_004206.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\629825f5-6553-4ede-ac23-1ac41abee917.mp3"></video></p></p>
-</li>
-<li>
-<p><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_004309.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_004316.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="
-"></video></p></p>
-</li>
-<li>
-<p><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_004407.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_004421.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\010668_BT_R.mp3"></video></p></p>
-</li>
-<li>
-<p><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_004521.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_004531.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_004543.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_004558.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\18c90c01-4550-4b0b-9d3b-cef9aa0d9945.mp3"></video></p></p>
-</li>
-<li>
-<p><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_004646.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_004652.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_004701.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\040963c7-6409-43ca-bf40-b8aa4166da10.mp3"></video></p></p>
-</li>
-<li>
-<p><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_004753.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_004806.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\a9d54e5a-4458-48a0-a777-e15137f5f9ba.mp3"></video></p></p>
-</li>
-<li>
-<p><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_004900.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_004909.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\e3be27e4-8a1b-4728-92e0-867a5e74d9d3.mp3"></video></p></p>
-</li>
-<li>
-<p><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_005019.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\c4882ab4-9412-4523-8608-99ab2207483f.mp3"></video></p></p>
-</li>
-<li>
-<p><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_005210.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\c928a353-60c6-40b7-834c-1e6999631bbd.mp3"></video></p></p>
-</li>
-<li>
-<p><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_005342.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_005353.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_005404.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\8ce55748-f50a-40ad-81da-3e1dcb1892fb.mp3"></video></p></p>
-</li>
-<li>
-<p><p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_005528.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_005538.png" /></p><br />
-<p align="center"><img alt="" src="C:\Users\lencs\Desktop\Drive\cap_20171204_005548.png" /></p><br />
-<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\9a8646c9-77cb-448f-8098-4016eb1f926d.mp3"></video></p></p>
-</li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-</ul></article></body></html>
+  </script>
+  <title>
+   D.licence
+  </title>
+ </head>
+ <body>
+  <div class="to">
+   <div class="tod">
+    <ul>
+     <li>
+      <a href="#ex-01">
+       Ex 01
+      </a>
+      <ul>
+       <li>
+        <a href="#50k1700">
+         50k每分钟要处理1700个信息
+        </a>
+       </li>
+       <li>
+        <a href="#_1">
+         如果没投保，一旦制造了事故要负责双方的维修费用
+        </a>
+       </li>
+       <li>
+        <a href="#_2">
+         听收音机不算特别干扰开车
+        </a>
+       </li>
+       <li>
+        <a href="#_3">
+         自动巡航可以维持安全距离
+        </a>
+       </li>
+       <li>
+        <a href="#_4">
+         蓝牙打电话是允许的
+        </a>
+       </li>
+       <li>
+        <a href="#_5">
+         宠物必须关笼子里
+        </a>
+       </li>
+       <li>
+        <a href="#_6">
+         不系安全带罚钱不扣分
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li>
+      <a href="#ex-09">
+       Ex 09
+      </a>
+      <ul>
+       <li>
+        <a href="#_7">
+         酒驾测试
+        </a>
+       </li>
+       <li>
+        <a href="#_8">
+         慢车道
+        </a>
+       </li>
+       <li>
+        <a href="#_9">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_10">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_11">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_12">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_13">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_14">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_15">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_16">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_17">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_18">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_19">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_20">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_21">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_22">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_23">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_24">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_25">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_26">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_27">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_28">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_29">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_30">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_31">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_32">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_33">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#34">
+         (待定)34
+        </a>
+       </li>
+       <li>
+        <a href="#_34">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#36">
+         (待定)36
+        </a>
+       </li>
+       <li>
+        <a href="#_35">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_36">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_37">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_38">
+         (待定)
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li>
+      <a href="#ex-08">
+       Ex 08
+      </a>
+      <ul>
+       <li>
+        <a href="#_39">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_40">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_41">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_42">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_43">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_44">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_45">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_46">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_47">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_48">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_49">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_50">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_51">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_52">
+         市区灯光
+        </a>
+       </li>
+       <li>
+        <a href="#_53">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_54">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_55">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_56">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_57">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_58">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_59">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_60">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_61">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_62">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_63">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_64">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_65">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_66">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_67">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_68">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_69">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_70">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_71">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_72">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_73">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_74">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_75">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_76">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_77">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_78">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_79">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_80">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_81">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_82">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_83">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_84">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_85">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_86">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_87">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_88">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_89">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_90">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_91">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_92">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_93">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_94">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_95">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_96">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_97">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_98">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_99">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_100">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_101">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_102">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_103">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_104">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_105">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_106">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_107">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_108">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_109">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_110">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_111">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_112">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_113">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_114">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_115">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_116">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_117">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_118">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_119">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_120">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_121">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_122">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_123">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_124">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_125">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_126">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_127">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_128">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_129">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_130">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_131">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_132">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_133">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_134">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_135">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_136">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_137">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_138">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_139">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_140">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_141">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_142">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_143">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_144">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_145">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_146">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_147">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_148">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_149">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_150">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_151">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_152">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_153">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_154">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_155">
+         (待定)
+        </a>
+       </li>
+       <li>
+        <a href="#_156">
+         (待定)
+        </a>
+       </li>
+      </ul>
+     </li>
+    </ul>
+   </div>
+  </div>
+  <article class="markdown-body">
+   <div class="admonition hint">
+    <p>
+     $$驾照理论考试$$
+    </p>
+   </div>
+   <h1 id="ex-01">
+    <a aria-hidden="true" class="headeranchor-link" href="#ex-01" name="user-content-ex-01">
+     <span class="headeranchor">
+     </span>
+    </a>
+    Ex 01
+   </h1>
+   <h2 id="50k1700">
+    <a aria-hidden="true" class="headeranchor-link" href="#50k1700" name="user-content-50k1700">
+     <span class="headeranchor">
+     </span>
+    </a>
+    50k每分钟要处理1700个信息
+   </h2>
+   <h2 id="_1">
+    <a aria-hidden="true" class="headeranchor-link" href="#_1" name="user-content-_1">
+     <span class="headeranchor">
+     </span>
+    </a>
+    如果没投保，一旦制造了事故要负责双方的维修费用
+   </h2>
+   <h2 id="_2">
+    <a aria-hidden="true" class="headeranchor-link" href="#_2" name="user-content-_2">
+     <span class="headeranchor">
+     </span>
+    </a>
+    听收音机不算特别干扰开车
+   </h2>
+   <h2 id="_3">
+    <a aria-hidden="true" class="headeranchor-link" href="#_3" name="user-content-_3">
+     <span class="headeranchor">
+     </span>
+    </a>
+    自动巡航可以维持安全距离
+   </h2>
+   <h2 id="_4">
+    <a aria-hidden="true" class="headeranchor-link" href="#_4" name="user-content-_4">
+     <span class="headeranchor">
+     </span>
+    </a>
+    蓝牙打电话是允许的
+   </h2>
+   <h2 id="_5">
+    <a aria-hidden="true" class="headeranchor-link" href="#_5" name="user-content-_5">
+     <span class="headeranchor">
+     </span>
+    </a>
+    宠物必须关笼子里
+   </h2>
+   <h2 id="_6">
+    <a aria-hidden="true" class="headeranchor-link" href="#_6" name="user-content-_6">
+     <span class="headeranchor">
+     </span>
+    </a>
+    不系安全带罚钱不扣分
+   </h2>
+   <h1 id="ex-09">
+    <a aria-hidden="true" class="headeranchor-link" href="#ex-09" name="user-content-ex-09">
+     <span class="headeranchor">
+     </span>
+    </a>
+    Ex 09
+   </h1>
+   <h2 id="_7">
+    <a aria-hidden="true" class="headeranchor-link" href="#_7" name="user-content-_7">
+     <span class="headeranchor">
+     </span>
+    </a>
+    酒驾测试
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_223601.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\f8a6998f-8dd9-400a-8ba9-e61ad1213e16.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_8">
+    <a aria-hidden="true" class="headeranchor-link" href="#_8" name="user-content-_8">
+     <span class="headeranchor">
+     </span>
+    </a>
+    慢车道
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_224331.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\3de9764e-bb8c-4f06-9815-c0ce3c4a5c3a.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_9">
+    <a aria-hidden="true" class="headeranchor-link" href="#_9" name="user-content-_9">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_224554.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_224639.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\eeac0fab-c04b-442c-bd4d-4cbdf150e4e5.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_10">
+    <a aria-hidden="true" class="headeranchor-link" href="#_10" name="user-content-_10">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_224919.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_224930.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_224946.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\3c6ff9f4-7f1c-45d0-9963-c7ea7441e443.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_11">
+    <a aria-hidden="true" class="headeranchor-link" href="#_11" name="user-content-_11">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_225135.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\9edaeb5d-dc1a-4344-bbf1-df8ba168fb79.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_12">
+    <a aria-hidden="true" class="headeranchor-link" href="#_12" name="user-content-_12">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_225237.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_225258.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_225307.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_225426.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\064dd471-7bfd-40fd-9533-1d023373060b.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_13">
+    <a aria-hidden="true" class="headeranchor-link" href="#_13" name="user-content-_13">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_225800.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\465799ab-a654-49c5-8665-ca2ba044cae6.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_14">
+    <a aria-hidden="true" class="headeranchor-link" href="#_14" name="user-content-_14">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_225834.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_225918.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\d24763c5-1197-4122-aed7-0a25af9bf2d2.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_15">
+    <a aria-hidden="true" class="headeranchor-link" href="#_15" name="user-content-_15">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_230009.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_230016.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\ab9552d1-e469-481b-bd1a-ce0352ca63b7.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_16">
+    <a aria-hidden="true" class="headeranchor-link" href="#_16" name="user-content-_16">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_230229.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\aa029193-cbab-40ca-9c1a-c791b7543819.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_17">
+    <a aria-hidden="true" class="headeranchor-link" href="#_17" name="user-content-_17">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_230327.png"/>
+    </p>
+   </p>
+   <h2 id="_18">
+    <a aria-hidden="true" class="headeranchor-link" href="#_18" name="user-content-_18">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_230624.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\b5134d66-b1a3-402d-8568-2c84a1f6db2d.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_19">
+    <a aria-hidden="true" class="headeranchor-link" href="#_19" name="user-content-_19">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_230711.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_230747.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_230757.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\51a511d7-3e1f-4f46-b6f0-a6bd9b412724.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_20">
+    <a aria-hidden="true" class="headeranchor-link" href="#_20" name="user-content-_20">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_230925.png"/>
+    </p>
+   </p>
+   <h2 id="_21">
+    <a aria-hidden="true" class="headeranchor-link" href="#_21" name="user-content-_21">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_231014.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_231026.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_231042.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\9e04921b-941b-4bd7-b61c-233c5328c3a1.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_22">
+    <a aria-hidden="true" class="headeranchor-link" href="#_22" name="user-content-_22">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_231215.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\9adf2bec-259d-4a9d-88b1-d03a2b2d6525.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_23">
+    <a aria-hidden="true" class="headeranchor-link" href="#_23" name="user-content-_23">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_231452.png"/>
+    </p>
+   </p>
+   <h2 id="_24">
+    <a aria-hidden="true" class="headeranchor-link" href="#_24" name="user-content-_24">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_231546.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_231553.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_231611.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_231633.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\ecd8ceb0-88de-4d9a-aebc-48b8e35f1756.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_25">
+    <a aria-hidden="true" class="headeranchor-link" href="#_25" name="user-content-_25">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_231838.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_231930.png"/>
+    </p>
+   </p>
+   <h2 id="_26">
+    <a aria-hidden="true" class="headeranchor-link" href="#_26" name="user-content-_26">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_232012.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_232018.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_232027.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\0d6eb92c-6a7f-4db0-905a-4986ff07b9c5.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_27">
+    <a aria-hidden="true" class="headeranchor-link" href="#_27" name="user-content-_27">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_232200.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_232225.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\aab08ab5-5e7c-4476-b7c6-eaad6f4abff0.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_28">
+    <a aria-hidden="true" class="headeranchor-link" href="#_28" name="user-content-_28">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_232329.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_232338.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\65ab67d4-b442-4c81-afac-f41e6d9c44da.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_29">
+    <a aria-hidden="true" class="headeranchor-link" href="#_29" name="user-content-_29">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_232427.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_232443.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\a36fb249-d593-41c1-a546-cae28f979be4.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_30">
+    <a aria-hidden="true" class="headeranchor-link" href="#_30" name="user-content-_30">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_232602.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_232608.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\f47370a0-fe3d-4062-8b67-f14745e892cc.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_31">
+    <a aria-hidden="true" class="headeranchor-link" href="#_31" name="user-content-_31">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_232752.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\010689_BT_R.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_32">
+    <a aria-hidden="true" class="headeranchor-link" href="#_32" name="user-content-_32">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_232855.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\a9546f06-796e-48dd-80a9-62eb6f3f694f.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_33">
+    <a aria-hidden="true" class="headeranchor-link" href="#_33" name="user-content-_33">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_232955.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_233005.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_233017.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\8a52af6b-7f73-4461-bed9-4697a25897e9.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="34">
+    <a aria-hidden="true" class="headeranchor-link" href="#34" name="user-content-34">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)34
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_233112.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_233125.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_233218.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\1b779d71-9a03-4bd9-8f01-1a19e3f0a68e.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_34">
+    <a aria-hidden="true" class="headeranchor-link" href="#_34" name="user-content-_34">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_233350.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\657b0a2f-d5ee-4188-8dcc-76984f5b5695.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="36">
+    <a aria-hidden="true" class="headeranchor-link" href="#36" name="user-content-36">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)36
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_233507.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_233515.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_233552.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\4747a1a9-849e-4440-81e1-aea00fc67e01.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_35">
+    <a aria-hidden="true" class="headeranchor-link" href="#_35" name="user-content-_35">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_233826.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\073be246-c65f-42e0-89cc-74932839ab6f.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_36">
+    <a aria-hidden="true" class="headeranchor-link" href="#_36" name="user-content-_36">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_233938.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\c14aa08b-e56e-433d-947d-f79607ff3880.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_37">
+    <a aria-hidden="true" class="headeranchor-link" href="#_37" name="user-content-_37">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_234011.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_234038.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\b1557b75-395f-4823-92c2-2ddb6b5b81b7.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_38">
+    <a aria-hidden="true" class="headeranchor-link" href="#_38" name="user-content-_38">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_234224.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\289aafca-3aa7-4031-b6cf-814a154351ab.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h1 id="ex-08">
+    <a aria-hidden="true" class="headeranchor-link" href="#ex-08" name="user-content-ex-08">
+     <span class="headeranchor">
+     </span>
+    </a>
+    Ex 08
+   </h1>
+   <h2 id="_39">
+    <a aria-hidden="true" class="headeranchor-link" href="#_39" name="user-content-_39">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_234608.png"/>
+    </p>
+   </p>
+   <h2 id="_40">
+    <a aria-hidden="true" class="headeranchor-link" href="#_40" name="user-content-_40">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_234714.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_234723.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_234731.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\c9f24b17-aee3-4e2c-ae9b-fcfe18c4a7a9.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_41">
+    <a aria-hidden="true" class="headeranchor-link" href="#_41" name="user-content-_41">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_234859.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\88b40949-0f92-41a8-a139-3c34bf9bf48a.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_42">
+    <a aria-hidden="true" class="headeranchor-link" href="#_42" name="user-content-_42">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_234945.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_234954.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\60151b97-6d4c-477b-81b2-6db40ba195e5.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_43">
+    <a aria-hidden="true" class="headeranchor-link" href="#_43" name="user-content-_43">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_235101.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\9a11516e-0d1b-4bf0-bafb-76b3fd13ad84.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_44">
+    <a aria-hidden="true" class="headeranchor-link" href="#_44" name="user-content-_44">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_235143.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_235149.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\16a6e7bf-02d2-4c7b-9a4a-143eb5f1b1be.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_45">
+    <a aria-hidden="true" class="headeranchor-link" href="#_45" name="user-content-_45">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_235246.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_235259.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\cc21be42-fa4a-4fd6-b966-b811ed706a02.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_46">
+    <a aria-hidden="true" class="headeranchor-link" href="#_46" name="user-content-_46">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_235358.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_235412.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\df8c351b-8437-443a-8374-eb5332d2e483.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_47">
+    <a aria-hidden="true" class="headeranchor-link" href="#_47" name="user-content-_47">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_235509.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_235516.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\3f5e39ef-4004-441a-a4ca-5ffa8c925a8f.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_48">
+    <a aria-hidden="true" class="headeranchor-link" href="#_48" name="user-content-_48">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_235631.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_235648.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_235700.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_235711.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\0fd518b8-5a88-4e2b-819a-df9bd03f7bf6.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_49">
+    <a aria-hidden="true" class="headeranchor-link" href="#_49" name="user-content-_49">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_235829.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\da97ce6f-dcfc-4575-961e-56d5e85f4dc0.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_50">
+    <a aria-hidden="true" class="headeranchor-link" href="#_50" name="user-content-_50">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_235911.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_235929.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171203_235955.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_000005.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\6a3bdd9e-e479-4762-a577-9b645ae91dcd.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_51">
+    <a aria-hidden="true" class="headeranchor-link" href="#_51" name="user-content-_51">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_001747.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_001758.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\c2ea38ff-00b3-460f-89b0-9d79a114011f.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_52">
+    <a aria-hidden="true" class="headeranchor-link" href="#_52" name="user-content-_52">
+     <span class="headeranchor">
+     </span>
+    </a>
+    市区灯光
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_001942.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\60ad3245-b151-4f31-9722-20939c4a4177.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_53">
+    <a aria-hidden="true" class="headeranchor-link" href="#_53" name="user-content-_53">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_002109.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\5422443c-ca52-4231-9798-9b49017e42ad.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_54">
+    <a aria-hidden="true" class="headeranchor-link" href="#_54" name="user-content-_54">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_002210.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\d731f5f5-0992-45ad-a9c6-56639e87b5ee.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_55">
+    <a aria-hidden="true" class="headeranchor-link" href="#_55" name="user-content-_55">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_002257.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_002318.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\524be06c-f78b-408d-a774-0e60cdd16935.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_56">
+    <a aria-hidden="true" class="headeranchor-link" href="#_56" name="user-content-_56">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_002445.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\a8cafb7f-b2dd-4f64-a9b8-45dce17ae2f4.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_57">
+    <a aria-hidden="true" class="headeranchor-link" href="#_57" name="user-content-_57">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_002541.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\6304fe09-8c50-4956-97d8-91299a6b7128.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_58">
+    <a aria-hidden="true" class="headeranchor-link" href="#_58" name="user-content-_58">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_002651.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_002705.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_002714.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\ce52d1a4-df10-484b-975b-477df626a3b1.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_59">
+    <a aria-hidden="true" class="headeranchor-link" href="#_59" name="user-content-_59">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_002808.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_002817.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_002831.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_002858.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\99536dec-3ae6-41a9-905e-7f21fb31c72a.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_60">
+    <a aria-hidden="true" class="headeranchor-link" href="#_60" name="user-content-_60">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_003125.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_003136.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\6afc59c3-a4f8-4194-b79b-bc984c5eb8c7.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_61">
+    <a aria-hidden="true" class="headeranchor-link" href="#_61" name="user-content-_61">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_003244.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\3fcc62ab-f1d8-472d-a642-ea92ac60dfcb.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_62">
+    <a aria-hidden="true" class="headeranchor-link" href="#_62" name="user-content-_62">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_003356.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_003434.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\6341fc40-03ad-4739-b069-79cc9240ef23.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_63">
+    <a aria-hidden="true" class="headeranchor-link" href="#_63" name="user-content-_63">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_003819.png"/>
+    </p>
+   </p>
+   <h2 id="_64">
+    <a aria-hidden="true" class="headeranchor-link" href="#_64" name="user-content-_64">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_003906.png"/>
+    </p>
+   </p>
+   <h2 id="_65">
+    <a aria-hidden="true" class="headeranchor-link" href="#_65" name="user-content-_65">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_003938.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_004035.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\6fc39a75-d6f3-4c27-9b38-11cbf94a9f85.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_66">
+    <a aria-hidden="true" class="headeranchor-link" href="#_66" name="user-content-_66">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_004133.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_004140.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_004206.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\629825f5-6553-4ede-ac23-1ac41abee917.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_67">
+    <a aria-hidden="true" class="headeranchor-link" href="#_67" name="user-content-_67">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_004309.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_004316.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="
+"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_68">
+    <a aria-hidden="true" class="headeranchor-link" href="#_68" name="user-content-_68">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_004407.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_004421.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\010668_BT_R.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_69">
+    <a aria-hidden="true" class="headeranchor-link" href="#_69" name="user-content-_69">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_004521.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_004531.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_004543.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_004558.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\18c90c01-4550-4b0b-9d3b-cef9aa0d9945.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_70">
+    <a aria-hidden="true" class="headeranchor-link" href="#_70" name="user-content-_70">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_004646.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_004652.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_004701.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\040963c7-6409-43ca-bf40-b8aa4166da10.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_71">
+    <a aria-hidden="true" class="headeranchor-link" href="#_71" name="user-content-_71">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_004753.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_004806.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\a9d54e5a-4458-48a0-a777-e15137f5f9ba.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_72">
+    <a aria-hidden="true" class="headeranchor-link" href="#_72" name="user-content-_72">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_004900.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_004909.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\e3be27e4-8a1b-4728-92e0-867a5e74d9d3.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_73">
+    <a aria-hidden="true" class="headeranchor-link" href="#_73" name="user-content-_73">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_005019.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\c4882ab4-9412-4523-8608-99ab2207483f.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_74">
+    <a aria-hidden="true" class="headeranchor-link" href="#_74" name="user-content-_74">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_005210.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\c928a353-60c6-40b7-834c-1e6999631bbd.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_75">
+    <a aria-hidden="true" class="headeranchor-link" href="#_75" name="user-content-_75">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_005342.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_005353.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_005404.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\8ce55748-f50a-40ad-81da-3e1dcb1892fb.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_76">
+    <a aria-hidden="true" class="headeranchor-link" href="#_76" name="user-content-_76">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <p>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_005528.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_005538.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <img alt="" src="picaudio\cap_20171204_005548.png"/>
+    </p>
+    <br/>
+    <p align="center">
+     <video controls="" height="36" width="480">
+      <source src="picaudio\9a8646c9-77cb-448f-8098-4016eb1f926d.mp3"/>
+     </video>
+    </p>
+   </p>
+   <h2 id="_77">
+    <a aria-hidden="true" class="headeranchor-link" href="#_77" name="user-content-_77">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_78">
+    <a aria-hidden="true" class="headeranchor-link" href="#_78" name="user-content-_78">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_79">
+    <a aria-hidden="true" class="headeranchor-link" href="#_79" name="user-content-_79">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_80">
+    <a aria-hidden="true" class="headeranchor-link" href="#_80" name="user-content-_80">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_81">
+    <a aria-hidden="true" class="headeranchor-link" href="#_81" name="user-content-_81">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_82">
+    <a aria-hidden="true" class="headeranchor-link" href="#_82" name="user-content-_82">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_83">
+    <a aria-hidden="true" class="headeranchor-link" href="#_83" name="user-content-_83">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_84">
+    <a aria-hidden="true" class="headeranchor-link" href="#_84" name="user-content-_84">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_85">
+    <a aria-hidden="true" class="headeranchor-link" href="#_85" name="user-content-_85">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_86">
+    <a aria-hidden="true" class="headeranchor-link" href="#_86" name="user-content-_86">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_87">
+    <a aria-hidden="true" class="headeranchor-link" href="#_87" name="user-content-_87">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_88">
+    <a aria-hidden="true" class="headeranchor-link" href="#_88" name="user-content-_88">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_89">
+    <a aria-hidden="true" class="headeranchor-link" href="#_89" name="user-content-_89">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_90">
+    <a aria-hidden="true" class="headeranchor-link" href="#_90" name="user-content-_90">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_91">
+    <a aria-hidden="true" class="headeranchor-link" href="#_91" name="user-content-_91">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_92">
+    <a aria-hidden="true" class="headeranchor-link" href="#_92" name="user-content-_92">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_93">
+    <a aria-hidden="true" class="headeranchor-link" href="#_93" name="user-content-_93">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_94">
+    <a aria-hidden="true" class="headeranchor-link" href="#_94" name="user-content-_94">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_95">
+    <a aria-hidden="true" class="headeranchor-link" href="#_95" name="user-content-_95">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_96">
+    <a aria-hidden="true" class="headeranchor-link" href="#_96" name="user-content-_96">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_97">
+    <a aria-hidden="true" class="headeranchor-link" href="#_97" name="user-content-_97">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_98">
+    <a aria-hidden="true" class="headeranchor-link" href="#_98" name="user-content-_98">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_99">
+    <a aria-hidden="true" class="headeranchor-link" href="#_99" name="user-content-_99">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_100">
+    <a aria-hidden="true" class="headeranchor-link" href="#_100" name="user-content-_100">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_101">
+    <a aria-hidden="true" class="headeranchor-link" href="#_101" name="user-content-_101">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_102">
+    <a aria-hidden="true" class="headeranchor-link" href="#_102" name="user-content-_102">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_103">
+    <a aria-hidden="true" class="headeranchor-link" href="#_103" name="user-content-_103">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_104">
+    <a aria-hidden="true" class="headeranchor-link" href="#_104" name="user-content-_104">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_105">
+    <a aria-hidden="true" class="headeranchor-link" href="#_105" name="user-content-_105">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_106">
+    <a aria-hidden="true" class="headeranchor-link" href="#_106" name="user-content-_106">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_107">
+    <a aria-hidden="true" class="headeranchor-link" href="#_107" name="user-content-_107">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_108">
+    <a aria-hidden="true" class="headeranchor-link" href="#_108" name="user-content-_108">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_109">
+    <a aria-hidden="true" class="headeranchor-link" href="#_109" name="user-content-_109">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_110">
+    <a aria-hidden="true" class="headeranchor-link" href="#_110" name="user-content-_110">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_111">
+    <a aria-hidden="true" class="headeranchor-link" href="#_111" name="user-content-_111">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_112">
+    <a aria-hidden="true" class="headeranchor-link" href="#_112" name="user-content-_112">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_113">
+    <a aria-hidden="true" class="headeranchor-link" href="#_113" name="user-content-_113">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_114">
+    <a aria-hidden="true" class="headeranchor-link" href="#_114" name="user-content-_114">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_115">
+    <a aria-hidden="true" class="headeranchor-link" href="#_115" name="user-content-_115">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_116">
+    <a aria-hidden="true" class="headeranchor-link" href="#_116" name="user-content-_116">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_117">
+    <a aria-hidden="true" class="headeranchor-link" href="#_117" name="user-content-_117">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_118">
+    <a aria-hidden="true" class="headeranchor-link" href="#_118" name="user-content-_118">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_119">
+    <a aria-hidden="true" class="headeranchor-link" href="#_119" name="user-content-_119">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_120">
+    <a aria-hidden="true" class="headeranchor-link" href="#_120" name="user-content-_120">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_121">
+    <a aria-hidden="true" class="headeranchor-link" href="#_121" name="user-content-_121">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_122">
+    <a aria-hidden="true" class="headeranchor-link" href="#_122" name="user-content-_122">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_123">
+    <a aria-hidden="true" class="headeranchor-link" href="#_123" name="user-content-_123">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_124">
+    <a aria-hidden="true" class="headeranchor-link" href="#_124" name="user-content-_124">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_125">
+    <a aria-hidden="true" class="headeranchor-link" href="#_125" name="user-content-_125">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_126">
+    <a aria-hidden="true" class="headeranchor-link" href="#_126" name="user-content-_126">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_127">
+    <a aria-hidden="true" class="headeranchor-link" href="#_127" name="user-content-_127">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_128">
+    <a aria-hidden="true" class="headeranchor-link" href="#_128" name="user-content-_128">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_129">
+    <a aria-hidden="true" class="headeranchor-link" href="#_129" name="user-content-_129">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_130">
+    <a aria-hidden="true" class="headeranchor-link" href="#_130" name="user-content-_130">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_131">
+    <a aria-hidden="true" class="headeranchor-link" href="#_131" name="user-content-_131">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_132">
+    <a aria-hidden="true" class="headeranchor-link" href="#_132" name="user-content-_132">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_133">
+    <a aria-hidden="true" class="headeranchor-link" href="#_133" name="user-content-_133">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_134">
+    <a aria-hidden="true" class="headeranchor-link" href="#_134" name="user-content-_134">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_135">
+    <a aria-hidden="true" class="headeranchor-link" href="#_135" name="user-content-_135">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_136">
+    <a aria-hidden="true" class="headeranchor-link" href="#_136" name="user-content-_136">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_137">
+    <a aria-hidden="true" class="headeranchor-link" href="#_137" name="user-content-_137">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_138">
+    <a aria-hidden="true" class="headeranchor-link" href="#_138" name="user-content-_138">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_139">
+    <a aria-hidden="true" class="headeranchor-link" href="#_139" name="user-content-_139">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_140">
+    <a aria-hidden="true" class="headeranchor-link" href="#_140" name="user-content-_140">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_141">
+    <a aria-hidden="true" class="headeranchor-link" href="#_141" name="user-content-_141">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_142">
+    <a aria-hidden="true" class="headeranchor-link" href="#_142" name="user-content-_142">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_143">
+    <a aria-hidden="true" class="headeranchor-link" href="#_143" name="user-content-_143">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_144">
+    <a aria-hidden="true" class="headeranchor-link" href="#_144" name="user-content-_144">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_145">
+    <a aria-hidden="true" class="headeranchor-link" href="#_145" name="user-content-_145">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_146">
+    <a aria-hidden="true" class="headeranchor-link" href="#_146" name="user-content-_146">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_147">
+    <a aria-hidden="true" class="headeranchor-link" href="#_147" name="user-content-_147">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_148">
+    <a aria-hidden="true" class="headeranchor-link" href="#_148" name="user-content-_148">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_149">
+    <a aria-hidden="true" class="headeranchor-link" href="#_149" name="user-content-_149">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_150">
+    <a aria-hidden="true" class="headeranchor-link" href="#_150" name="user-content-_150">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_151">
+    <a aria-hidden="true" class="headeranchor-link" href="#_151" name="user-content-_151">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_152">
+    <a aria-hidden="true" class="headeranchor-link" href="#_152" name="user-content-_152">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_153">
+    <a aria-hidden="true" class="headeranchor-link" href="#_153" name="user-content-_153">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_154">
+    <a aria-hidden="true" class="headeranchor-link" href="#_154" name="user-content-_154">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_155">
+    <a aria-hidden="true" class="headeranchor-link" href="#_155" name="user-content-_155">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+   <h2 id="_156">
+    <a aria-hidden="true" class="headeranchor-link" href="#_156" name="user-content-_156">
+     <span class="headeranchor">
+     </span>
+    </a>
+    (待定)
+   </h2>
+  </article>
+ </body>
+</html>

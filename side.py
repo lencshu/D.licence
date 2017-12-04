@@ -5,7 +5,7 @@ import os
 
 if os.path.exists("index.html") :
 	os.remove("index.html")
-html = open('MC59.html',"r+")
+html = open('D.licence.html',"r+")
 
 soup = BeautifulSoup(html, "html.parser")
 #Rename
@@ -21,9 +21,9 @@ keyword="outline: 1300px solid #fff;"
 post = html.find(keyword)
 if post != -1:
     html = html[:post+len(keyword)]+"float:right;padding-left:10px;width:60%;"+html[post+len(keyword):]
-    html = html.replace('///C://Users/lencs/Desktop/MC59/git.control_theory/', '')
-    html = html.replace('C:\\Users\\lencs\\Desktop\\MC59\\git.control_theory\\', '')
+    html = html.replace('///C://Users/lencs/Desktop/Drive/', '')
+    html = html.replace('C:\\Users\\lencs\\Desktop\\Drive\\', '')
     file = open('index.html', 'w')
     file.write(html)
 file.close( )
-os.remove("MC59.html")
+os.remove("D.licence.html")
