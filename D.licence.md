@@ -327,11 +327,23 @@
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_005548.png)</p>
 <p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\9a8646c9-77cb-448f-8098-4016eb1f926d.mp3"></video></p>
 
-## (
+#Ex 07
+## 毒品
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_132947.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_133115.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\67ec2202-7b45-43c7-8c23-5a64f00180b0.mp3"></video></p>
 
-## (
+## 事故单
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_133115.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_133428.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_133446.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\60b607aa-16c4-4cd3-a413-1d0ff1b993c7.mp3"></video></p>
 
-## (
+## 高难错车
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_133626.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_133632.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_133649.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\cc6cd18c-b4ea-43ab-9cdb-18ac6b69b806.mp3"></video></p>
 
 ## (
 
