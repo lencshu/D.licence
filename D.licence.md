@@ -1188,49 +1188,102 @@
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_200402.png)</p>
 
 #Ex 02
-## (
+## 违抗指令
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_201005.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\45d11f1b-72dd-43a5-a2f0-905a6aa22887.mp3"></video></p>
 
-## (
+## 城内停车
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_201112.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_201120.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_201128.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\21f1dfc9-c3f8-41f8-9382-09374b7beb7e.mp3"></video></p>
 
-## (
+## 听广播不算严重影响驾驶
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_201250.png)</p>
 
-## (
+## 自动跟车
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_201407.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_201419.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_201427.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_201440.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\eb08e2a8-f56a-4146-a01e-93fbdbf42529.mp3"></video></p>
 
-## (
+## 添加各种液体
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_201654.png)</p>
 
-## (
+## 转向选道
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_201932.png)</p>
 
-## (
+## 污染限号
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_202133.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_202145.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_202154.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\515d4d60-1fc0-4736-8b31-7622bf204296.mp3"></video></p>
 
-## (
+## 施工地段
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_202234.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_202247.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\729234db-63de-499e-a22b-40641d5ab044.mp3"></video></p>
 
-## (
+## 单行道让行
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_202457.png)</p>
 
-## (
+## 安全气囊时速在300k
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_202534.png)</p>
 
-## (
+## 颜色,直径,塞子标签提示油类型
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_202630.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_202653.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\a70bd39e-20a3-45ed-9d08-676953f3c3f1.mp3"></video></p>
 
-## (
+## diurne只在白天用
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_202908.png)</p>
 
-## (
+## 
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_203021.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_203032.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_203058.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\dbd8d568-8c19-42d6-a8ec-e80bf7a3de92.mp3"></video></p>
 
-## (
+## 公交车
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_203144.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_203156.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\4dc9c5a4-1d67-4e52-b9bc-3d08beedf560.mp3"></video></p>
 
-## (
+## 分扣完了只能重新考试
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_203311.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_203324.png)</p>
 
-## (
+## 停车拉手刹
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_203359.png)</p>
 
-## (
+## 牌子可以用来确认安全距离
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_203546.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\4392302d-0683-43fd-9f8d-63b1fd6a47c3.mp3"></video></p>
 
-## (
+## 艰难错车
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_203645.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_203705.png)</p>
 
-## (
+## 超车
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_203858.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_203917.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\cd6ce650-4be0-4384-8749-699a1eab87f6.mp3"></video></p>
 
-## (
+## 让行优先车辆
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_204039.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\be0c20e1-ce64-4f50-a00c-899312808820.mp3"></video></p>
 
-## (
+## P+R
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_204133.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\009de0b6-5fd5-49ca-b6c6-b1cbd5d30149.mp3"></video></p>
 
-## (
+## 刹车油泄露
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_204225.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_204234.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\1111e46d-9af8-4bef-9175-fccfca85fd47.mp3"></video></p>
+
+#Ex 01
 
 ## (
 
