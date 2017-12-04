@@ -3,10 +3,15 @@
 clipboard= ;清空剪贴板
 send, ^c
 clipwait
-clipboard =
-(Join`r`n
-<p align="center"><video width="480" height="36" controls><source src="%clipboard%"></video></p>
-
+Loop, parse, clipboard, `n, `r
+{
+clip = 
+(
+<p align="center"><video width="480" height="36" controls><source src="%A_LoopField%"></video></p>
+%clip%
 )
+}
+clipboard = %clip%
 msgbox, 音频路径已复制！%clipboard%
 return
+

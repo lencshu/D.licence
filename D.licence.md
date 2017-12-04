@@ -434,37 +434,96 @@
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_142642.png)</p>
 <p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\f8460403-f612-4ad0-ab1e-f490e2be4471.mp3"></video></p>
 
-## (
+## 拼车
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_143317.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_143323.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_143329.png)</p>
 
-## (
+## 音乐音量大的危害
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_143451.png)</p>
 
-## (
+## 指示灯
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_143555.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\76dc6b21-73cb-4e95-bdff-06b1cda821a0.mp3"></video></p>
 
-## (
+## 超车
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_143629.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_143639.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_143657.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_143711.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\c2983d9b-cfb5-410c-ae23-e56d8e1b602c.mp3"></video></p>
 
-## (
+## 被超车
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_143813.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_143823.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_143839.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\3280db51-31cf-4988-80f2-18a03385653e.mp3"></video></p>
 
-## (
+## 年轻人事故原因
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_144228.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_144251.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\9fbf8d37-a639-45fb-9a12-584d27935096.mp3"></video></p>
 
-## (
+## 事故 保护现场-警示-急救电话-急救
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_144420.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_144426.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_144432.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_144448.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_144454.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\7daddd58-d5be-4ce4-b049-a3a2d0629741.mp3"></video></p>
 
-## (
+## 限速器
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_144738.png)</p>
 
-## (
+## 侧方气流
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_144814.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_144827.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_144834.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\ecdaaa9e-1e43-437d-93e5-54a2b35da99f.mp3"></video></p>
 
-## (
+## 打电话无论何种方式都会提高风险
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_144917.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_144928.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\6008d777-141d-4396-a92a-ea91de1351ad.mp3"></video></p>
 
-## (
+## 倒车灯后雾灯是必备的
 
-## (
+!!! hint ""
+	只有一个的话在右边
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_145058.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\782f9d46-04e6-4dfc-8a4d-88eb863e5da4.mp3"></video></p>
 
-## (
+## 市区车灯
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_145323.png)</p>
 
-## (
 
-## (
+#Ex 06
+## 视野
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_145533.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_145653.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_145552.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_145603.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\aa159af7-cdbf-4084-96a9-13ab4f5269e4.mp3"></video></p>
 
-## (
+
+## 酒驾
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_145728.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_145740.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_145753.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\37d81515-b15a-48e8-900a-890939c797a6.mp3"></video></p>
+
+## 超自行车
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_145827.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_145831.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_145835.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_145844.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\6b27af7e-ad6d-4577-857f-5e7c71451990.mp3"></video></p>
+
+## 路口
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_150031.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_150047.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_150101.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\164b6a4e-db92-4345-b398-ec30202f112a.mp3"></video></p>
 
 ## (
 
