@@ -4,15 +4,6 @@
 !!! hint ""
 	$$驾照理论考试$$
 
-#Ex 01
-## 50k每分钟要处理1700个信息
-## 如果没投保，一旦制造了事故要负责双方的维修费用
-## 听收音机不算特别干扰开车
-## 自动巡航可以维持安全距离
-## 蓝牙打电话是允许的
-## 宠物必须关笼子里
-## 不系安全带罚钱不扣分
-
 #Ex 09
 ## 酒驾测试
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171203_223601.png)</p>
@@ -589,7 +580,6 @@
 <p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\8344ad0e-3b83-4cac-9a04-ec83695dedcb.mp3"></video></p>
 
 ## 地标
-<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_163751.png)</p>
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_163832.png)</p>
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_163843.png)</p>
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_163851.png)</p>
@@ -1201,7 +1191,7 @@
 ## 听广播不算严重影响驾驶
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_201250.png)</p>
 
-## 自动跟车
+## 自动跟车 保持安全距离
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_201407.png)</p>
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_201419.png)</p>
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_201427.png)</p>
@@ -1285,57 +1275,139 @@
 
 #Ex 01
 
-## (
+## 开车打电话
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_205004.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_205031.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\ef1198ad-737f-4ee8-9e4e-695da28f45da.mp3"></video></p>
 
-## (
+## 路口
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_205235.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\41e84de7-e387-41ba-98a4-a49085040bd6.mp3)</p>
 
-## (
+## 优先车辆没出任务
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_205314.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_205346.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\58d046f6-d539-4736-8ef5-06f8dfddf29d.mp3"></video></p>
 
-## (
+## 视野范围
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_205426.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_205436.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\56aa17b9-47fa-46e3-897c-086909d96e90.mp3"></video></p>
 
-## (
+## 自动熄火
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_205604.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_205609.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_205615.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_205638.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_205645.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\6070f535-615b-4c66-84e4-9254cec0060f.mp3"></video></p>
 
-## (
+## 酒精测试阳性之后要进行血检
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_205728.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_205757.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\c348181d-2374-4169-b557-b22b0489d7a0.mp3"></video></p>
 
-## (
+## 优先车辆
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_205931.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_205940.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_205947.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\8139e7b2-64dc-45dd-8ae8-3420c0754611.mp3"></video></p>
 
-## (
+## 除实习期外,无错6个月加1分,2年直接12分
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_210114.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_210122.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_210140.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\6077637d-0433-4bf5-989e-fb169ec58499.mp3"></video></p>
 
-## (
+## 危险区域有可能多选
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_210355.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_210409.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_210424.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\7cb55217-03de-4dd5-8650-908020c5c1a0.mp3"></video></p>
 
-## (
+## 环保限速
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_210525.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_210529.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_210545.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\b295c1bc-c48a-44e5-a357-fc60b8fddc94.mp3"></video></p>
 
-## (
+## 先减速再让行
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_210638.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_210644.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_210649.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\0e26897d-83e6-48f5-8856-982da180b122.mp3"></video></p>
 
-## (
+## 让行摩托车
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_210918.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\09c94e53-25be-48f4-a7eb-a5a687d97c42.mp3"></video></p>
 
-## (
+## 雨刷用来清洗
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_211101.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\04091680-ef11-4af4-ac82-db6768965f3b.mp3"></video></p>
 
-## (
+## 雨天打滑 禁止转向和刹车
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_211151.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_211214.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\02b6c09e-d83c-4b01-a2e4-676622e21af6.mp3"></video></p>
 
-## (
+## 地标
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_211214.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_211339.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_211351.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\9a91a008-6328-434e-baf4-e316bb1274a8.mp3"></video></p>
 
-## (
+## 新手酒驾和逃逸直接吊销驾照
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_211506.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_211528.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_211539.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\99f9d107-c100-4bd5-b343-884307c7e6a0.mp3"></video></p>
 
-## (
+## 安全带位置
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_211640.png)</p>
 
-## (
+## souple驾驶
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_211740.png)</p>
 
-## (
+## 信息处理
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_211835.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_211841.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_211857.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_211905.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\79ee227d-0b20-4859-aa35-15515be0d747.mp3"></video></p>
 
-## (
+## 卖车质检
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_212033.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\3e33f1fd-7733-4936-8c9d-accba8fc0e30.mp3"></video></p>
 
-## (
+## 单行道转向
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_212145.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_212158.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_212203.png)</p>
 
-## (
+## tramway闪灯必须停
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_212238.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_212246.png)</p>
 
-## (
+## 伤员的意识 呼吸 具体位置 人数
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_212403.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_212407.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\ed0aaa78-9111-44af-970c-b39cee9e25d3.mp3"></video></p>
 
-## (
+## 绕行自行车
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_212553.png)</p>
 
-## (
+## 轮胎说明
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_212736.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_212741.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_212752.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\a3feadcc-2c08-40e1-ba6d-4e9f6f88efc6 (1).mp3"></video></p>
 
-## (
+## 另一端是Stop
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_212832.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_212932.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\a70776e7-4059-4d1f-a43b-5431785b248c.mp3"></video></p>
+
+#Ex 10
 
 ## (
 
