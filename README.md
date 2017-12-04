@@ -1,3 +1,3 @@
 # D.licence
 
-https://lencshu.github.io/D.licence/
+https://lencshu.github.io/d.licence/

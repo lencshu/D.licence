@@ -345,39 +345,94 @@
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_133649.png)</p>
 <p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\cc6cd18c-b4ea-43ab-9cdb-18ac6b69b806.mp3"></video></p>
 
-## (
+## 安全距离
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_134109.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_134123.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_134131.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_134151.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\008938_BT_R.mp3"></video></p>
 
-## (
+## 冬季胎压
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_135836.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_135858.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\203bbd0b-57ef-4a0e-b385-352c7088a197.mp3"></video></p>
 
-## (
+## 酒精检测
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_135958.png)</p>
 
-## (
+## 优先车辆警告鸣笛
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_140230.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\461ae697-5448-49a3-9230-6d83a9f97d59.mp3"></video></p>
 
-## (
+## 宠物安全带
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_140337.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_140352.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_140404.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\4a7629ad-53d8-459d-9657-7454c407771c.mp3"></video></p>
 
-## (
+## 饮酒
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_140448.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_140511.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\8228346f-d7da-46a4-b0ba-35d1587d94ed.mp3"></video></p>
 
-## (
+## 高速行驶油耗
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_140621.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_140646.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_140656.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\232d04d2-648b-47f8-be86-82d1ce32654a.mp3"></video></p>
 
-## (
+## 高速并道
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_140755.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_140803.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\083b84dd-13d6-4b9a-8e3b-9d530f392041.mp3"></video></p>
 
-## (
+## 坐姿
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_140859.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_140906.png)</p>
 
-## (
+## 紧急情况
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_141418.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_141428.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_141433.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_141458.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\1dcedb3b-24a0-489a-aad9-c636989e7d23.mp3"></video></p>
 
-## (
+## 转头的必要性
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_141608.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_141621.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\4616dd20-cd19-4023-a3a0-004b57b2c2f7.mp3)</p>
 
-## (
+## 安全带
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_141704.png)</p>
 
-## (
+## 路口闪灯示意
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_141735.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_141743.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\956273ec-47ce-41c5-beaa-ea5c943a69b8.mp3"></video></p>
 
-## (
+## 借道tramway
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_141841.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_141853.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_141921.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\9bdfab16-758b-469c-940b-c655716a39c7.mp3"></video></p>
 
-## (
+## 闯红灯肯定会被酒驾检测
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_142118.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_142131.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_142138.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_142247.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\3d6fe037-04d6-41a4-8cfc-1780aa88dd33.mp3"></video></p>
 
-## (
+## 酒驾
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_142509.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_142528.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\e7a9cdfa-0a35-433a-a5c1-4f89d0033926.mp3"></video></p>
 
-## (
+## 被检查时需要的证件
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_142620.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_142625.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_142642.png)</p>
+<p align="center"><video width="480" height="36" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\f8460403-f612-4ad0-ab1e-f490e2be4471.mp3"></video></p>
 
 ## (
 
