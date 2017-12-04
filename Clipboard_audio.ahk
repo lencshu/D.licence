@@ -1,6 +1,7 @@
 ﻿;将本地音频插入Markdown
 ^+z:: ;ctrl+shift+z
 clipboard= ;清空剪贴板
+clip =
 send, ^c
 clipwait
 Loop, parse, clipboard, `n, `r
