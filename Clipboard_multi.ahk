@@ -15,11 +15,11 @@ clip =
 %clip%
 )
 }
-If obj contains .mp3 
+If obj contains .mp3,.wav,.ogg
 {
 clip = 
 (
-<p align="center"><audio controls><source src="%A_LoopField%" type="audio/mpeg"></audio></p>
+<p align="center"><audio controls><source src="%A_LoopField%"></audio></p>
 %clip%
 )
 }
