@@ -7,7 +7,7 @@ clipwait
 Loop, parse, clipboard, `n, `r
 {
 obj = %A_LoopField%
-IfInString, obj, .png
+If InStr(obj, ".png") or InStr(obj, "jpg")
 {
 clip = 
 (
@@ -15,27 +15,26 @@ clip =
 %clip%
 )
 }
-IfInString, obj, .mp3
+If obj contains .mp3 
 {
 clip = 
 (
-<p align="center"><video width="480" height="36" controls><source src="%A_LoopField%"></video></p>
+<p align="center"><audio controls><source src="%A_LoopField%" type="audio/mpeg"></audio></p>
 %clip%
 )
 }
-IfInString, obj, .jpg
+If obj contains .mp4,.mkv
 {
 clip = 
 (
-<p align="center">![](%A_LoopField%)</p>
+<p align="center"><video width="480" height="270" controls><source src="%A_LoopField%"></video></p>
 %clip%
 )
 }
-else
-	MsgBox, 请选中jpg,png或者mp3格式的文件
 }
 clipboard = %clip%
-msgbox, 多媒体路径已复制！%clipboard%
+msgbox,0, 多媒体路径已复制!,%clipboard%,0.5
+;Options, Title, Text, Timeout
 return
 
 
