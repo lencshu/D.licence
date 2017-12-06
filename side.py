@@ -27,3 +27,14 @@ if post != -1:
     file.write(html)
 file.close( )
 os.remove("D.licence.html")
+
+
+'''
+img alt="" src
+img class="lazyload" alt="" data-src
+
+<audio
+<audio class="lazyload" data-poster="" preload="none" controls="">
+      <source src="picaudio\f8a6998f-8dd9-400a-8ba9-e61ad1213e16.mp3"/>
+     </audio>
+'''
