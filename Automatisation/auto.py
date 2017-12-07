@@ -15,7 +15,7 @@ parentDir = os.path.abspath(os.path.join(currentDir, os.pardir))
 iniExiste = os.path.exists(currentDir+"\\auto.ini")
 conf = ConfigParser.ConfigParser()
 
-commentContent = raw_input("Commit the update [Bug Fixed]: ") or "Bug Fixed"
+# commentContent = raw_input("Commit the update [Bug Fixed]: ") or "Bug Fixed"
 
 htmlReplaceResize="///" + parentDir.replace('\\','/') + "/"
 htmlReplaceResize=htmlReplaceResize.replace(':/','://')
@@ -44,14 +44,14 @@ else :
 	mainpageSize = mainpageSize + "%;"
 	deleteOriginHtml = raw_input("Want To Delete Origin Html(Yes:1/[No:0]): ") or "0"
 	multiMediaDir = raw_input("The name of MultiMedia directory: ") or "MultiMedia"
-	lastChangeTime = raw_input("Last Changed time of All PNGs Files [0]: ")
+	lastChangeTime = raw_input("Last Changed time of All PNGs Files [0]: ") or "0"
 
 	conf.set("HTML", "HtmlName",htmlName) # 增加指定section 的option
 	conf.set("HTML", "SidebarSize",sidebarSize)
 	conf.set("HTML", "MainpageSize",mainpageSize)
 	conf.set("HTML", "DeleteOriginHtml",deleteOriginHtml)
 	conf.set("MultiMedia", "DirName",multiMediaDir) # 获取指定section 的option值
-	conf.set("MultiMedia", "LastChangeTime",lastChangeTime )
+	# conf.set("MultiMedia", "LastChangeTime",lastChangeTime )
 	conf.write(open('auto.ini', 'w'))
 
 ##
@@ -63,22 +63,29 @@ mediaFolder = parentDir +"\\" + multiMediaDir
 lastChangeTime=float(lastChangeTime)
 print lastChangeTime
 refTimeAfterAll = lastChangeTime
+ChangedTime=0
 
 for file in os.listdir(mediaFolder):
 	if file.endswith(".png"):
 		pngPath = os.path.join(mediaFolder, file)
 		fileTime=os.path.getmtime(pngPath)
 		# print fileTime,lastChangeTime,refTimeAfterAll #Debug
-		if lastChangeTime < fileTime:
+		if (lastChangeTime < fileTime) and (lastChangeTime != 0) :
 			pngtoModify = os.path.abspath(pngPath)
 			status = subprocess.call("pngquant.exe " + pngtoModify + args, shell=True)
 			pngChangedSigne=1
 			refTimeAfterAll=os.path.getmtime(pngPath)
-				
-if pngChangedSigne:
-	conf.read('auto.ini')
+		elif lastChangeTime == 0:
+			if ChangedTime < fileTime:
+				ChangedTime = fileTime
+				pngChangedSigne=2
+
+conf.read('auto.ini')				
+if pngChangedSigne==1:
 	conf.set("MultiMedia", "LastChangeTime",refTimeAfterAll )
-	conf.write(open('auto.ini', 'w'))
+elif pngChangedSigne==2:
+	conf.set("MultiMedia", "LastChangeTime",ChangedTime)
+conf.write(open('auto.ini', 'w'))
 
 
 ##
