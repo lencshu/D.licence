@@ -40,7 +40,7 @@ else :
 	htmlName = raw_input("Original Html Name: ")
 	sidebarSize = raw_input("Side Bar Size (%) [30]: ") or "30"
 	sidebarSize = "width:" + sidebarSize + "%"
-	mainpageSize = raw_input("Original Html Name (%) [68]: ") or "68"
+	mainpageSize = raw_input("Main Page Size (%) [68]: ") or "68"
 	mainpageSize = mainpageSize + "%;"
 	deleteOriginHtml = raw_input("Want To Delete Origin Html(Yes:1/[No:0]): ") or "0"
 	multiMediaDir = raw_input("The name of MultiMedia directory: ") or "MultiMedia"
