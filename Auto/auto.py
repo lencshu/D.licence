@@ -17,9 +17,11 @@ conf = ConfigParser.ConfigParser()
 
 commentContent = raw_input("Commit the update [Bug Fixed]: ") or "Bug Fixed"
 
-htmlReplaceSimple="///" + parentDir.replace('\\','/')
-htmlReplaceSimple=htmlReplaceSimple.replace(':/','://')
+htmlReplaceResize="///" + parentDir.replace('\\','/') + "/"
+htmlReplaceResize=htmlReplaceResize.replace(':/','://')
 # ///C://Users/lencs/Desktop/Drive/
+htmlReplaceParentDir = parentDir + "\\"
+#C:\\Users\\lencs\\Desktop\\Drive\\
 
 
 if iniExiste:
@@ -110,8 +112,8 @@ if post != -1:
     html = html[:post+len(keyword)]+"float:right;padding-left:10px;width:"+ mainpageSize +html[post+len(keyword):]
     html = html.replace('width:36%', sidebarSize)
 #Change to related directory
-    html = html.replace(htmlReplaceSimple, '')
-    html = html.replace(parentDir, '')
+    html = html.replace(htmlReplaceResize, '')
+    html = html.replace(htmlReplaceParentDir, '')
 
 #Lazy loading image
     html = html.replace('img alt=\"\" src', 'img class=\"lazyload\" alt=\"\" data-src')
@@ -131,10 +133,10 @@ if int(deleteOriginHtml):
 ## github
 ##
 
-subprocess.call("git init", cwd=parentDir, shell=True)
-subprocess.call("git add .", cwd=parentDir, shell=True)
-subprocess.call("git commit -m " + commentContent, cwd=parentDir, shell=True)
-subprocess.call("git push -u origin master", cwd=parentDir, shell=True)
+# subprocess.call("git init", cwd=parentDir, shell=True)
+# subprocess.call("git add .", cwd=parentDir, shell=True)
+# subprocess.call("git commit -m " + commentContent, cwd=parentDir, shell=True)
+# subprocess.call("git push -u origin master", cwd=parentDir, shell=True)
 
 
 
