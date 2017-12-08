@@ -157,9 +157,6 @@ executeCommand("git commit -m ",commentContent)
 executeCommand("git push -u origin master")
 
 
-'"Bug Fixed"'
-
-
 """
 #os.path.dirname()
 pngquant.exe @path --force --verbose --quality=45-80 --ext=.png
