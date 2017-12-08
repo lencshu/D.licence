@@ -28,6 +28,7 @@ htmlReplaceResize=htmlReplaceResize.replace(':/','://')
 htmlReplaceParentDir = parentDir + "\\"
 #C:\\Users\\lencs\\Desktop\\Drive\\
 
+numberPNGchanged=0
 
 if iniExiste:
 	conf.read('auto.ini')       # 文件路径
@@ -77,7 +78,12 @@ for file in os.listdir(mediaFolder):
 		# print fileTime,lastChangeTime,refTimeAfterAll #Debug
 		if (lastChangeTime < fileTime) and (lastChangeTime != 0) :
 			pngtoModify = os.path.abspath(pngPath)
-			status = subprocess.call("pngquant.exe " + pngtoModify + args, shell=True)
+			pn = subprocess.Popen("pngquant.exe " + pngtoModify + args, shell = True, stdout = subprocess.PIPE, stderr = subprocess.PIPE )
+			(out, error) = pn.communicate()
+			# if str(error):
+				# print "Error : " + str(error)
+			numberPNGchanged+=1
+			print numberPNGchanged
 			pngChangedSigne=1
 			refTimeAfterAll=os.path.getmtime(pngPath)
 		elif lastChangeTime == 0:
@@ -159,6 +165,8 @@ executeCommand("git push -u origin master")
 
 
 """
+status = subprocess.call("pngquant.exe " + pngtoModify + args, shell=True)
+
 #os.path.dirname()
 pngquant.exe @path --force --verbose --quality=45-80 --ext=.png
 print os.path.normpath(refFile)   #输出'/Volumes/Leopard/Users/Caroline/Desktop/1.mp4'
