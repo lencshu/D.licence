@@ -144,6 +144,7 @@ if int(deleteOriginHtml):
 ##
 ## github
 ##
+
 def executeCommand(cmd,arg=""):
 	pr = subprocess.Popen(cmd+arg, cwd = parentDir, shell = True, stdout = subprocess.PIPE, stderr = subprocess.PIPE )
 	(out, error) = pr.communicate()
