@@ -19,7 +19,8 @@ parentDir = os.path.abspath(os.path.join(currentDir, os.pardir))
 iniExiste = os.path.exists(currentDir+"\\auto.ini")
 conf = ConfigParser.ConfigParser()
 
-commentContent = raw_input("Commit the update [Bug Fixed]: ") or "Bug Fixed"
+commentContent = raw_input("Commit the update [Bug Fixed]: ") or r"Bug Fixed"
+commentContent = "\"" + commentContent + "\""
 
 htmlReplaceResize="///" + parentDir.replace('\\','/') + "/"
 htmlReplaceResize=htmlReplaceResize.replace(':/','://')
@@ -143,31 +144,18 @@ if int(deleteOriginHtml):
 ##
 ## github
 ##
+def executeCommand(cmd,arg=""):
+	pr = subprocess.Popen(cmd+arg, cwd = parentDir, shell = True, stdout = subprocess.PIPE, stderr = subprocess.PIPE )
+	(out, error) = pr.communicate()
+	if str(error):
+		print "Error : " + str(error)
+	if str(out):
+		print "out : " + str(out)
 
-pr = subprocess.Popen( "git init" , cwd = parentDir, shell = True, stdout = subprocess.PIPE, stderr = subprocess.PIPE )
-(out, error) = pr.communicate()
-if str(error):
-	print "Error : " + str(error) 
-if str(out):
-	print "out : " + str(out)
-pr = subprocess.Popen( "git add ." , cwd = parentDir, shell = True, stdout = subprocess.PIPE, stderr = subprocess.PIPE )
-(out, error) = pr.communicate()
-if str(error):
-	print "Error : " + str(error) 
-if str(out):
-	print "out : " + str(out)
-pr = subprocess.Popen("git commit -m " + commentContent, cwd = parentDir, shell = True, stdout = subprocess.PIPE, stderr = subprocess.PIPE )
-(out, error) = pr.communicate()
-if str(error):
-	print "Error : " + str(error) 
-if str(out):
-	print "out : " + str(out)
-pr = subprocess.Popen( "git push -u origin master" , cwd = parentDir, shell = True, stdout = subprocess.PIPE, stderr = subprocess.PIPE )
-(out, error) = pr.communicate()
-if str(error):
-	print "Error : " + str(error) 
-if str(out):
-	print "out : " + str(out)
+executeCommand("git add .")
+executeCommand("git commit -m ",commentContent)
+executeCommand("git push -u origin master")
+
 
 
 
@@ -196,4 +184,11 @@ repo.push()
 # subprocess.call("git push -u origin master", cwd=parentDir, shell=True)
 pr = subprocess.Popen( "git log" , cwd = parentDir, shell = True, stdout = subprocess.PIPE, stderr = subprocess.PIPE )
 cwd=r'd:\test\local'
+
+
+pr = subprocess.Popen("git commit -m " + commentContent, cwd = parentDir, shell = True, stdout = subprocess.PIPE, stderr = subprocess.PIPE )
+pr = subprocess.Popen( "git add ." , cwd = parentDir, shell = True, stdout = subprocess.PIPE, stderr = subprocess.PIPE )
+pr = subprocess.Popen( "git init" , cwd = parentDir, shell = True, stdout = subprocess.PIPE, stderr = subprocess.PIPE )
+pr = subprocess.Popen( "git push -u origin master" , cwd = parentDir, shell = True, stdout = subprocess.PIPE, stderr = subprocess.PIPE )
+
 """
