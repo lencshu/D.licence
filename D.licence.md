@@ -2272,7 +2272,16 @@
 <p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\2388_b.ogg"></audio></p>
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171209_004952.png)</p>
 
-### .
+### ---- 09
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171209_005447.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\692_b.ogg"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171209_005804.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\2227_b.ogg"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171209_005924.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\391_b.ogg"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171209_010105.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\486_b.ogg"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171209_010137.png)</p>
 
 ### .
 

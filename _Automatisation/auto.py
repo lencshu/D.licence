@@ -79,7 +79,7 @@ for file in os.listdir(mediaFolder):
 		if (lastChangeTime < fileTime) and (lastChangeTime != 0) :
 			pngtoModify = os.path.abspath(pngPath)
 			pn = subprocess.Popen("pngquant.exe " + pngtoModify + args, shell = True, stdout = subprocess.PIPE, stderr = subprocess.PIPE )
-			(out, error) = pn.communicate()
+			# (out, error) = pn.communicate()
 			# if str(error):
 				# print "Error : " + str(error)
 			numberPNGchanged+=1
