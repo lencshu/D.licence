@@ -211,7 +211,7 @@
 		* 出血
 		* 感觉
 	+ 3. 急救电话 eCall 或者 SOS按钮
-		* 112 急救 15 SAMU 18 消防车 114法国短信急救
+		* `112 欧洲急救` `15 SAMU` `18 消防车` `114法国短信/Fax急救`
 		* 危险标志
 			- 上面数字是危险类型
 			- 下面是nature du danger
@@ -2516,14 +2516,78 @@
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_185425.png)</p>
 
 ### La circulation routière
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_193417.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_193556.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_193730.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_194050.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_194127.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_194151.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_194259.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_194351.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_194514.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_194647.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_195020.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_195201.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_195414.png)</p>
 
-### .
+### --- Le conducteur
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_195605.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_195728.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_200214.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_200309.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_200409.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_200522.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_200629.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_200708.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_200800.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_200858.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_202117.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_202252.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_202451.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_202608.png)</p>
 
-### .
+### --- 急救
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_205610.png)</p>
 
-### .
+!!! hint ""
+	- Pour le placer, l’automobiliste doit donc remonter la route dans le sens contraire de celui de la circulation. 
+	- si le véhicule est immobilisé à la sortie d’un virage, le triangle doit être placé en amont du virage, impérativement.
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_210032.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_210605.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_210911.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_211024.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_211144.png)</p>
 
-### .
+### --- Les autres usagers
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_211414.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_211538.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_213143.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_213220.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_213237.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_213432.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_213602.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_213656.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_213832.png)</p>
+
+### --- La route
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_213832.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_215245.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_215318.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_215339.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_215415.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_215504.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_215718.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_215830.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_215921.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_220026.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_220107.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_220239.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_220325.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_220403.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\759b806b-e6fb-4a08-9954-58772e530851.mp3"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_220426.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_220452.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_220640.png)</p>
 
 ### .
 
