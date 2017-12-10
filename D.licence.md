@@ -237,16 +237,23 @@
 - 矮于135cm必备
 - 小于10岁坐在后面身高合适不用座椅
 - 儿童安全≠中央锁定
+- 后背朝前的座椅要关闭安全气囊
 
-##14.摩托车
+##14.摩托车和某些3轮
 - 在所有的道路上 interfiles 限速50 靠左行驶
-- 高速上 en interfiles 实验性的
-	+ 要求：有隔离带分开，至少各有两条道
+- en interfiles 实验性的
+	+ 道路要求：
+		* 有隔离带分开
+		* 至少各有两条道2X2
+		* 道路限速至少在70K/h
+		* 如果有三条道的话，要在左起第一第二两条之间行驶
+	+ 对别的汽车司机来说，所有间隙都危险
 	+ 允许的省 速度允许≥70km/h
 		* Bouches du Rhone
 		* la Gironde 
 		* le Rhone
 		* Ile-de-France, le boulevard peripherique parisien
+		* Toute la région parisienne
 ##15.艰难错车
 
 !!! hint ""
@@ -1966,7 +1973,7 @@
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171205_225053.png)</p>
 <p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\116_b.ogg"></audio></p>
 
-### ----0123
+### --- 0123
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171205_225222.png)</p>
 <p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\27_b.ogg"></audio></p>
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171205_225408.png)</p>
@@ -2000,7 +2007,7 @@
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171205_232134.png)</p>
 <p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\192_b.ogg"></audio></p>
 
-### ----04
+### --- 04
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171205_232601.png)</p>
 <p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\77_b.ogg"></audio></p>
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171205_232703.png)</p>
@@ -2038,7 +2045,7 @@
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171205_235632.png)</p>
 <p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\264_b.ogg"></audio></p>
 
-### ----05
+### --- 05
 
 !!! hint ""
 	附近有人行道的时候不能超车
@@ -2077,7 +2084,7 @@
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171206_001928.png)</p>
 <p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\44_b.ogg"></audio></p>
 
-### ----06
+### --- 06
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171206_095244.png)</p>
 <p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\2233_b.ogg"></audio></p>
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171206_095332.png)</p>
@@ -2152,7 +2159,7 @@
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171206_104035.png)</p>
 <p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\298_b.ogg"></audio></p>
 
-### ----07
+### --- 07
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171208_231851.png)</p>
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171208_232220.png)</p>
 <p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\270_b.ogg"></audio></p>
@@ -2223,7 +2230,7 @@
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171209_000018.png)</p>
 <p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\86_b.ogg"></audio></p>
 
-### ----08
+### --- 08
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171209_001811.png)</p>
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171209_001905.png)</p>
 <p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\2380_b.ogg"></audio></p>
@@ -2279,7 +2286,7 @@
 <p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\2388_b.ogg"></audio></p>
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171209_004952.png)</p>
 
-### ---- 09
+### --- 09
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171209_233519.png)</p>
 <p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\410_b.ogg"></audio></p>
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171209_005447.png)</p>
@@ -2392,7 +2399,31 @@
 <p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\1086_b.ogg"></audio></p>
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_010124.png)</p>
 
-### .
+###---10
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_114345.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\1abbb6d8-e6c7-4f72-a4e0-ad895499111f.mp3"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_114535.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\024ce594-f571-4246-b723-f5a4816b2109.mp3"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_114625.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\422bfa3f-a97f-4a66-a46c-a920650fe7f3.mp3"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_115448.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\62afdcf7-4bde-4ca0-ad44-457807ae65cd.mp3"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_115933.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_120138.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\738d99b2-ae01-4df8-8f67-4267e00aa9ec.mp3"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_120209.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\c7ba0398-6ede-42c4-8cca-0466279ea482.mp3"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_120249.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\60d1fadd-283b-4ce2-9f59-5d58723a9545.mp3"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_120454.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_120547.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\8c527e15-c89e-4789-a8e9-fac6f898136a.mp3"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_120631.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\1943a287-464c-43b3-878b-87dadfc5d6b9.mp3"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_120824.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\bc1ae41d-6c84-4b06-97a5-0398e2b44d4a (1).mp3"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_120946.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\83d1bfe3-f8bc-4767-b8e1-4c9bca3f6178.mp3"></audio></p>
 
 ### .
 
