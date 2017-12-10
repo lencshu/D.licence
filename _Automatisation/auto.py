@@ -77,11 +77,9 @@ refTimeAfterAll = lastChangeTime
 ChangedTime=0
 
 def iniConfPng(t):
-	conf.read('auto.ini')
 	conf.set("MultiMedia", "LastChangeTime",t)
 	timeTag=time.strftime("%Y-%m-%d %H:%M:%S %a", time.localtime())
 	conf.set("TimeTag", "IniModifiedTime",timeTag)
-	conf.write(open('auto.ini', 'w'))
 
 
 for file in os.listdir(mediaFolder):
@@ -104,13 +102,14 @@ for file in os.listdir(mediaFolder):
 				ChangedTime = fileTime
 				pngChangedSigne=2
 			
+conf.read('auto.ini')
 if pngChangedSigne==1:
 	iniConfPng(refTimeAfterAll)
 	print "==== PNGs newly modified date updated "
 elif pngChangedSigne==2:
 	iniConfPng(ChangedTime)
 	print "==== PNGs initialised modified date created "
-
+conf.write(open('auto.ini', 'w'))
 
 ##
 ## 网页重制并加入sidebar
@@ -189,6 +188,10 @@ print "==== All filed uploaded to Github "
 
 
 """
+git reset --hard HEAD
+git clean -f -d
+git pull
+
 status = subprocess.call("pngquant.exe " + pngtoModify + args, shell=True)
 
 #os.path.dirname()
