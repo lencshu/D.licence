@@ -154,6 +154,7 @@
 	+ 有维修的话2个月内复查
 	+ 每20000km换一次机油(vidange,filtres huile air gasoil)
 - 车检标签不能证明车子过检，必须查看灰卡上的timbre
+- 不拆车检查: 照明，刹车，减震的问题需要复查。2个月内修车，并复查
 
 ##9.许可吨位PTAC
 (Pois total autorise en charge)
@@ -246,6 +247,12 @@
 		* la Gironde 
 		* le Rhone
 		* Ile-de-France, le boulevard peripherique parisien
+##15.艰难错车
+
+!!! hint ""
+	谁难谁优先
+	优先级：
+	`远离accotement`>`大车`>`上坡`
 
 #模拟练习题
 ##Ex 09
@@ -2273,6 +2280,8 @@
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171209_004952.png)</p>
 
 ### ---- 09
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171209_233519.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\410_b.ogg"></audio></p>
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171209_005447.png)</p>
 <p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\692_b.ogg"></audio></p>
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171209_005804.png)</p>
@@ -2282,10 +2291,108 @@
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171209_010105.png)</p>
 <p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\486_b.ogg"></audio></p>
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171209_010137.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171209_234007.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171209_234233.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\2273_b.ogg"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171209_234323.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\6_b.ogg"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171209_234354.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171209_234452.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\779_b.ogg"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171209_234640.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\2544_b.ogg"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171209_234746.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\568_b.ogg"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171209_234832.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171209_234946.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\525_b.ogg"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171209_235120.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\499_b.ogg"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171209_235437.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171209_235713.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171209_235805.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\2303_b.ogg"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171209_235916.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171209_235958.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\610_b.ogg"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_000044.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\173_b.ogg"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_000122.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\614_b.ogg"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_000222.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\476_b.ogg"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_000327.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\719_b.ogg"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_000531.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\2117_b.ogg"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_000937.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\326_b.ogg"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_001213.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\2542_b.ogg"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_001351.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\383_b.ogg"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_001456.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\632_b.ogg"></audio></p>
 
-### .
+### --- 10
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_001733.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\826_b.ogg"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_001958.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\2269_b.ogg"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_002043.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\2252_b.ogg"></audio></p>
 
-### .
+!!! hint ""
+	自动巡航
+	- 建议使用:
+		+ 高速
+		+ 城际高速
+	- 不建议使用
+		+ 下雨
+		+ 城内
+		+ 施工区域
+		+ 蛇形弯路
+
+### ----- 10
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_002534.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\1028_b.ogg"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_002654.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_002834.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\2525_b.ogg"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_002926.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\825_b.ogg"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_003114.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_003224.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\964_b.ogg"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_003340.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\2531_b.ogg"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_003433.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_003510.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_003612.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_004304.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\846_b.ogg"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_004455.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_004611.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\803_b.ogg"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_004844.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\93_b.ogg"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_005053.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\1118_b.ogg"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_005303.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\2220_b.ogg"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_005355.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\987_b.ogg"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_005445.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\1074_b.ogg"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_005524.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\227_b.ogg"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_005653.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\1048_b.ogg"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_005810.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\1094_b.ogg"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_010042.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\1086_b.ogg"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_010124.png)</p>
 
 ### .
 
