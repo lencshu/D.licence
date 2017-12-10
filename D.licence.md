@@ -2353,7 +2353,6 @@
 		+ 施工区域
 		+ 蛇形弯路
 
-### ----- 10
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_002534.png)</p>
 <p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\1028_b.ogg"></audio></p>
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_002654.png)</p>
