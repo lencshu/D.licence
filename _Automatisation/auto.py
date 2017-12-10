@@ -93,14 +93,12 @@ for file in os.listdir(mediaFolder):
 			# print fileTime,lastChangeTime,refTimeAfterAll #Debug
 			pngtoModify = os.path.abspath(pngPath)
 			numberPNGchanged+=1
-			# pngChangedSigne=1
 			print numberPNGchanged
 			pn = subprocess.Popen("pngquant.exe " + pngtoModify + args, shell = True, stdout = subprocess.PIPE, stderr = subprocess.PIPE )
 			pn.wait()
+			pngChangedSigne=1
 			refTimeAfterAll=os.path.getmtime(pngPath)
 			# print refTimeAfterAll #debug
-			iniConfPng(refTimeAfterAll)
-			print "==== PNGs newly modified date updated "
 			# (out, error) = pn.communicate()
 			# if str(error):
 			# 	print "Error : " + error
@@ -112,10 +110,14 @@ for file in os.listdir(mediaFolder):
 		elif lastChangeTime == 0:
 			if ChangedTime < fileTime:
 				ChangedTime = fileTime
-			iniConfPng(ChangedTime)
-			print "==== PNGs initialised modified date created "
-			# pngChangedSigne=2
+			pngChangedSigne=2
 
+if pngChangedSigne==1:
+	iniConfPng(refTimeAfterAll)
+	print "==== PNGs newly modified date updated "
+if pngChangedSigne==2:
+	iniConfPng(ChangedTime)
+	print "==== PNGs initialised modified date created "
 
 ##
 ## 网页重制并加入sidebar

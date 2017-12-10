@@ -2398,8 +2398,6 @@
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_010042.png)</p>
 <p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\1086_b.ogg"></audio></p>
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_010124.png)</p>
-
-###---10
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_114345.png)</p>
 <p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\1abbb6d8-e6c7-4f72-a4e0-ad895499111f.mp3"></audio></p>
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_114535.png)</p>
@@ -2424,12 +2422,100 @@
 <p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\bc1ae41d-6c84-4b06-97a5-0398e2b44d4a (1).mp3"></audio></p>
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_120946.png)</p>
 <p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\83d1bfe3-f8bc-4767-b8e1-4c9bca3f6178.mp3"></audio></p>
+<p align="center"><video width="480" height="270" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\454870876.mp4"></video></p>
+<p align="center"><video width="480" height="270" controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\Peugeot 208_ Vérifications extérieures.mp4"></video></p>
 
-### .
+### --- 难题 01
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_162815.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\2fdbadd5-1bab-4293-9e85-f92bd0df8e88.mp3"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_164008.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_164052.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_164148.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_164216.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_164254.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_165008.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_165216.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_165355.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_165459.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_165654.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_165918.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_165945.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_170005.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_170211.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_170400.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_170720.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_170938.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_171236.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_171359.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_171430.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_171602.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_171656.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_171824.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_171918.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_172105.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_172135.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_172259.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_172423.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_172716.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_172754.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_172959.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_173251.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_173323.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_173616.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_173718.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_173927.png)</p>
 
-### .
 
-### .
+### --- 难题 02
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_175932.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\d503ffde-752b-4b3c-ad53-ee6c5d24dcb2.mp3"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_180151.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_180404.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_180440.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_181130.png)</p>
+<p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\fe86e79a-0b33-4e2d-84bc-4c3a12f0a1e9.mp3"></audio></p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_181219.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_181306.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_181419.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_181523.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_181650.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_181822.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_182010.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_182054.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_182354.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_182451.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_182519.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_182629.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_182729.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_182828.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_183029.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_183157.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_183320.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_183431.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_183559.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_183725.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_184024.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_184111.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_184307.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_184335.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_184349.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_184612.png)</p>
+
+
+!!! hint ""
+	有两条道的情况下
+	除非
+	- 超车
+	- 右边堵车
+	否则一定要靠右行驶！
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_184910.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_185053.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_185124.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_185244.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_185354.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_185425.png)</p>
+
+### La circulation routière
 
 ### .
 
