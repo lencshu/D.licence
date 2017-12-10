@@ -46,12 +46,12 @@ else :
 	conf.add_section("HTML") 
 	conf.add_section("TimeTag")
 	htmlName = raw_input("Original Html Name: ")
+	multiMediaDir = raw_input("The name of [MultiMedia] directory: ") or "MultiMedia"
 	sidebarSize = raw_input("Side Bar Size (%) [30]: ") or "30"
 	sidebarSize = "width:" + sidebarSize + "%"
 	mainpageSize = raw_input("Main Page Size (%) [68]: ") or "68"
 	mainpageSize = mainpageSize + "%;"
 	deleteOriginHtml = raw_input("Want To Delete Origin Html(Yes:1/[No:0]): ") or "0"
-	multiMediaDir = raw_input("The name of [MultiMedia] directory: ") or "MultiMedia"
 	lastChangeTime = raw_input("Last Changed time of All PNGs Files [0]: ") or "0"
 
 	conf.set("HTML", "HtmlName",htmlName) # 增加指定section 的option
@@ -68,7 +68,7 @@ else :
 ##
 ## 缩小PNG图片
 ##
-pngChangedSigne=0
+# pngChangedSigne=0
 args = " --force --verbose --quality=45-80 --ext=.png"
 mediaFolder = parentDir +"\\" + multiMediaDir
 lastChangeTime=float(lastChangeTime)
@@ -77,9 +77,11 @@ refTimeAfterAll = lastChangeTime
 ChangedTime=0
 
 def iniConfPng(t):
+	conf.read('auto.ini')
 	conf.set("MultiMedia", "LastChangeTime",t)
 	timeTag=time.strftime("%Y-%m-%d %H:%M:%S %a", time.localtime())
 	conf.set("TimeTag", "IniModifiedTime",timeTag)
+	conf.write(open('auto.ini', 'w'))
 
 
 for file in os.listdir(mediaFolder):
@@ -87,29 +89,33 @@ for file in os.listdir(mediaFolder):
 		pngPath = os.path.join(mediaFolder, file)
 		fileTime=os.path.getmtime(pngPath)
 		# print fileTime,lastChangeTime,refTimeAfterAll #Debug
-		if (lastChangeTime < fileTime) and (lastChangeTime != 0) :
+		if (lastChangeTime+0.01 < fileTime) and (lastChangeTime != 0) :
+			# print fileTime,lastChangeTime,refTimeAfterAll #Debug
 			pngtoModify = os.path.abspath(pngPath)
+			numberPNGchanged+=1
+			# pngChangedSigne=1
+			print numberPNGchanged
 			pn = subprocess.Popen("pngquant.exe " + pngtoModify + args, shell = True, stdout = subprocess.PIPE, stderr = subprocess.PIPE )
+			pn.wait()
+			refTimeAfterAll=os.path.getmtime(pngPath)
+			# print refTimeAfterAll #debug
+			iniConfPng(refTimeAfterAll)
+			print "==== PNGs newly modified date updated "
 			# (out, error) = pn.communicate()
 			# if str(error):
-				# print "Error : " + str(error)
-			numberPNGchanged+=1
-			print numberPNGchanged
-			pngChangedSigne=1
-			refTimeAfterAll=os.path.getmtime(pngPath)
+			# 	print "Error : " + error
+			# if str(out):
+			# 	print "out : " + str(out)
+			# refTimeAfterAll=os.path.getmtime(pngPath)
+			# print pngPath #Debug
+			# print refTimeAfterAll #debug
 		elif lastChangeTime == 0:
 			if ChangedTime < fileTime:
 				ChangedTime = fileTime
-				pngChangedSigne=2
-			
-conf.read('auto.ini')
-if pngChangedSigne==1:
-	iniConfPng(refTimeAfterAll)
-	print "==== PNGs newly modified date updated "
-elif pngChangedSigne==2:
-	iniConfPng(ChangedTime)
-	print "==== PNGs initialised modified date created "
-conf.write(open('auto.ini', 'w'))
+			iniConfPng(ChangedTime)
+			print "==== PNGs initialised modified date created "
+			# pngChangedSigne=2
+
 
 ##
 ## 网页重制并加入sidebar
