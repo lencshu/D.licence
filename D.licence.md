@@ -92,9 +92,9 @@
 |见死不救| |入狱5年 75000€|
 |驾驶员不系安全带| |扣3分 135€|
 |未成年乘客没安全带| |135€|
-||||
-||||
-扣分详情
+
+
+- 扣分详情
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171211_010235.png)</p>
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171211_010245.png)</p>
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171211_010257.png)</p>
