@@ -2670,5 +2670,14 @@
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171211_005648.png)</p>
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171211_005837.png)</p>
 
+### --- 集中训练
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171211_133908.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171211_133922.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171211_134006.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171211_134035.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171211_134046.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171211_134115.png)</p>
+<p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171211_134147.png)</p>
+
 
 
