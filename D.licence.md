@@ -94,6 +94,7 @@
 |未成年乘客没安全带| |135€|
 ||||
 ||||
+扣分详情
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171211_010235.png)</p>
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171211_010245.png)</p>
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171211_010257.png)</p>

@@ -75,6 +75,7 @@ lastChangeTime=float(lastChangeTime)
 print lastChangeTime
 refTimeAfterAll = lastChangeTime
 ChangedTime=0
+pngChangedSigne=0
 
 def iniConfPng(t):
 	conf.read('auto.ini')
