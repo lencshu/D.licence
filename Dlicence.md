@@ -1,8 +1,26 @@
 [TOC]
 
+---
+title: 法国驾照理论考试
+permalink: 
+categories: Techno
+lang: Fr-Ch
+date: 2017-12-27 21:56:55
+tags: [driveLicence]
+mathjax: true
+description: 
+---
+
+
+
+
+
 
 !!! hint ""
 	$$驾照理论考试$$
+
+<!-- more -->
+
 
 #整理
 
@@ -52,6 +70,8 @@
 		+ 虚线 `线3 + 间10`
 		+ Rabattement线 `线3 + 间1.33 + 箭头`
 		+ Dissuasion线 `线3 + 间1.33` 在狭窄或蛇形道路上可超慢车
+
+驾
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171205_150227.png)</p>
 
 !!! hint "估算"
@@ -63,6 +83,8 @@
 	|90|27|54|81/121.5| 
 	|110|33|66|121/181.5| 
 	|130|39|78|169/253.5| 
+
+
 
 ##3. 超车
 - 车速差20 
@@ -138,6 +160,8 @@
 
 !!! danger ""
 	不能超除雪车
+
+
 
 ##7.饮酒
 - 下饭的话，`1~2小时`达到顶峰; 空腹只需要`15~30分钟`
@@ -267,6 +291,8 @@
 	谁难谁优先
 	优先级：
 	`远离accotement`>`大车`>`上坡`
+
+
 
 #模拟练习题
 ##Ex 09
@@ -749,6 +775,9 @@
 
 !!! hint ""
 	只有一个的话在右边
+
+
+驾
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_145058.png)</p>
 <p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\782f9d46-04e6-4dfc-8a4d-88eb863e5da4.mp3" ></audio></p>
 
@@ -1001,6 +1030,10 @@
 ### 救急
 !!! hint ""
 	应急灯只针对慢行车辆，黄三角不放在高速路上
+
+
+
+驾
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_171905.png)</p>
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_171816.png)</p>
 <p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\63627b2c-5c44-4f77-aaa9-d05e5adeb82f.mp3" ></audio></p>
@@ -1222,8 +1255,13 @@
 ### 轮胎磨损 示意标志
 !!! hint ""
 	刹车距离增长 aquaplanning更严重
+
+
+驾
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_182204.png)</p>
 <p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\60effe1a-e000-4b2e-88ce-4b52d5fa8fa9.mp3" ></audio></p>
+
+
 
 ### 酒精含量
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171204_182344.png)</p>
@@ -1874,6 +1912,8 @@
 	胎压过足，中间过度磨损
 	磨损，减少摩擦力
 
+
+
 ### 被闪瞎了
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171205_203849.png)</p>
 <p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\05d6eed1-8304-4367-8824-2efa04995fef.mp3"></audio></p>
@@ -1906,6 +1946,8 @@
 !!! hint "对于Dommages collision"
 	撞到柱子什么的不在承保范围内
 
+
+
 ### 车灯只能调高度
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171205_214025.png)</p>
 <p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\b29277ae-f015-4cb6-8780-8f3725896c01.mp3"></audio></p>
@@ -1920,6 +1962,8 @@
 	direction不能在驾驶室调整
 	照明距离不能调
 
+
+
 ### AFU只在刹车猛踩到底的时候启动，且跟ABS配套
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171205_215610.png)</p>
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171205_215623.png)</p>
@@ -1933,6 +1977,8 @@
 
 !!! hint ""
 	空气阻力占一半的油耗
+
+
 
 ### 拼车
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171205_221357.png)</p>
@@ -2056,6 +2102,9 @@
 
 !!! hint ""
 	附近有人行道的时候不能超车
+
+
+驾
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171205_235817.png)</p>
 <p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\2267_b.ogg"></audio></p>
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171206_000025.png)</p>
@@ -2090,6 +2139,8 @@
 <p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\127_b.ogg"></audio></p>
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171206_001928.png)</p>
 <p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\44_b.ogg"></audio></p>
+
+
 
 ### --- 06
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171206_095244.png)</p>
@@ -2366,6 +2417,9 @@
 		+ 城内
 		+ 施工区域
 		+ 蛇形弯路
+
+
+驾
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_002534.png)</p>
 <p align="center"><audio controls><source src="C:\Users\lencs\Desktop\Drive\picaudio\1028_b.ogg"></audio></p>
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_002654.png)</p>
@@ -2515,6 +2569,10 @@
 	- 超车
 	- 右边堵车
 	否则一定要靠右行驶！
+
+
+
+驾
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_184910.png)</p>
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_185053.png)</p>
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_185124.png)</p>
@@ -2559,6 +2617,10 @@
 !!! hint ""
 	- Pour le placer, l’automobiliste doit donc remonter la route dans le sens contraire de celui de la circulation. 
 	- si le véhicule est immobilisé à la sortie d’un virage, le triangle doit être placé en amont du virage, impérativement.
+
+
+
+驾
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_210032.png)</p>
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_210605.png)</p>
 <p align="center">![](C:\Users\lencs\Desktop\Drive\picaudio\cap_20171210_210911.png)</p>
