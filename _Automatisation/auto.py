@@ -461,6 +461,7 @@ if modeSwitch and int(ifhexo):
 		mdSimReplace = mdSimReplace.replace('</p>','')
 		# print mdImagesPathdel
 		mdSimReplace = mdSimReplace.replace(mdImagesPathdel,'')
+		mdSimReplace = mdSimReplace.replace('</audio>',"</audio>\n")
 		mdSimReplace = mdSimReplace.replace("[TOC]\n\n---",'---')
 		file = open('temp.md', 'w')
 		file.write(mdSimReplace)
@@ -529,8 +530,8 @@ if modeSwitch and int(ifhexo):
 ##
 
 if modeSwitch and int(ifhexo):
-	print "==== Delete original HTMLs"
-	executeCommand("hexo clean", hexoDir)
+	# print "==== Delete original HTMLs"
+	# executeCommand("hexo clean", hexoDir)
 	print "==== Generate new HTMLs "
 	executeCommand("hexo g", hexoDir)
 	print "==== Uplading to Hexo GitPage "

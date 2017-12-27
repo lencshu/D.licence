@@ -15,9 +15,10 @@ description:
 
 
 
+!!! hint "驾照理论考试"
+	法国驾照理论考试知识点综合
+	Suite à la réforme du Code de la route de Mai 2016 visant à dépoussiérer l’examen, digiSchool est le premier acteur à proposer des contenus de qualité et en conformité avec cette réforme, pour vous aider à réviser l’examen de façon optimale.
 
-!!! hint ""
-	$$驾照理论考试$$
 
 <!-- more -->
 
