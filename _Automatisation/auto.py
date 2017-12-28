@@ -460,7 +460,8 @@ if modeSwitch and int(ifhexo):
 		mdSimReplace = re.sub(r"{:height=\"\d+px\" width=\"\d+px\"}</p>", '' ,mdSimReplace)
 		mdSimReplace = mdSimReplace.replace('</p>','')
 		# print mdImagesPathdel
-		mdSimReplace = mdSimReplace.replace(mdImagesPathdel,'')
+		mdSimReplace = mdSimReplace.replace(mdImagesPathdel,'http://lencshu.qiniudn.com/')
+		# mdSimReplace = mdSimReplace.replace(mdImagesPathdel,'')
 		mdSimReplace = mdSimReplace.replace('</audio>',"</audio>\n")
 		mdSimReplace = mdSimReplace.replace("[TOC]\n\n---",'---')
 		file = open('temp.md', 'w')
@@ -509,20 +510,23 @@ if modeSwitch and int(ifhexo):
 ## 1.8 复制照片文件夹
 ##
 
+shutil.rmtree(imagesHexoDir)
+time.sleep(1)
+
 mediaSourceFolder = mediaFolder.replace('\\','/')
 # print mediaSourceFolder
 
-if modeSwitch and int(ifhexo):
-	print "==== Hint Decoded, Coping images"
+# if modeSwitch and int(ifhexo):
+	# print "==== Hint Decoded, Coping images"
 	# print imagesHexoExiste,imagesHexoDir
 	# shutil.wait()
 	# RMDIR /S
-	shutil.rmtree(imagesHexoDir)
-	time.sleep(2)
+	# shutil.rmtree(imagesHexoDir)
+	# time.sleep(2)
 	# rmImages = subprocess.Popen("rm -force -Recurse " + imagesHexoDir, shell = True, stdout = subprocess.PIPE, stderr = subprocess.PIPE )
 	# rmImages.wait()
-	shutil.copytree(mediaSourceFolder, imagesHexoDir)
-	time.sleep(2)
+	# shutil.copytree(mediaSourceFolder, imagesHexoDir)
+	# time.sleep(2)
 
 
 ##
