@@ -440,7 +440,8 @@ if modeSwitch:
 
 
 postPath=postDir + '\\' + markdownName
-mdImagesPathdel=parentDir+"\\"
+mdImagesPathdel=parentDir + "\\" + multiMediaDir + "\\"
+# mdImagesPathdel=parentDir+"\\"
 postExiste = os.path.exists(postPath)
 
 annotationTarget=0
